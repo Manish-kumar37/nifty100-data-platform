@@ -56,3 +56,13 @@ stability:
 momentum:
   eps_cagr_5yr_min: 15
   revenue_cagr_5yr_min: 10  
+
+value_pick:
+  # TODO: Enable after market valuation data is available
+  debt_to_equity_max: 2
+  sales_min: 5000
+
+dividend_champion:
+  # TODO: Replace with dividend_yield_min when available
+  free_cash_flow_min: 0
+  net_profit_min: 500

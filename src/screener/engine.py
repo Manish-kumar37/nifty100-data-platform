@@ -6,16 +6,18 @@ Financial Screener Engine
 import sqlite3
 import pandas as pd
 import yaml
-
+from src.analytics.scoring import add_composite_scores
 
 DB_PATH = "nifty100.db"
+import os
 
+print(os.path.abspath(DB_PATH))
 
 def load_financial_ratios():
     """
     Load financial_ratios table from SQLite.
     """
-
+    
     conn = sqlite3.connect(DB_PATH)
 
     df = pd.read_sql(
@@ -41,22 +43,20 @@ def load_config(config_path):
 
 
 def apply_filters(df, filters):
-    """
-    Apply screener filters.
-    """
 
     filtered = df.copy()
+
+    print("Initial:", len(filtered))
 
     for key, value in filters.items():
 
         if key == "roe_min":
-
             filtered = filtered[
                 filtered["return_on_equity_pct"] >= value
             ]
+            print("After ROE:", len(filtered))
 
         elif key == "debt_to_equity_max":
-
             filtered = filtered[
                 (
                     filtered["broad_sector"] == "Financials"
@@ -66,81 +66,101 @@ def apply_filters(df, filters):
                     filtered["debt_to_equity"] <= value
                 )
             ]
+            print("After D/E:", len(filtered))
 
         elif key == "free_cash_flow_min":
-
             filtered = filtered[
                 filtered["free_cash_flow_cr"] >= value
             ]
+            print("After FCF:", len(filtered))
 
         elif key == "revenue_cagr_5yr_min":
-
             filtered = filtered[
                 filtered["revenue_cagr_5yr"] >= value
             ]
+            print("After Revenue CAGR:", len(filtered))
 
-        elif key == "pat_cagr_5yr_min":
+    return filtered.sort_values(
+        "composite_quality_score",
+        ascending=False
+    )
 
-            filtered = filtered[
-                filtered["pat_cagr_5yr"] >= value
-            ]
+def latest_company_records(df):
+    """
+    Keep the latest annual financial record for each company.
+    Ignore TTM rows because many derived ratios are unavailable.
+    """
 
-        elif key == "sales_min":
+    df = df.copy()
 
-            filtered = filtered[
-                filtered["sales"] >= value
-            ]
-        elif key == "operating_profit_margin_min":
+    # Remove TTM rows
+    df = df[df["year"] != "TTM"].copy()
 
-            filtered = filtered[
-                filtered["operating_profit_margin_pct"] >= value
-            ]
+    def year_sort(value):
+        try:
+            return int(str(value).split()[-1])
+        except Exception:
+            return 0
 
-        elif key == "interest_coverage_min":
+    df["sort_year"] = df["year"].apply(year_sort)
 
-            filtered = filtered[
-                (
-                    filtered["interest_coverage"].isna()
-                )
-                |
-                (
-                    filtered["interest_coverage"] >= value
-                )
-            ]
+    df = (
+        df.sort_values(["company_id", "sort_year"])
+          .groupby("company_id", as_index=False)
+          .tail(1)
+          .drop(columns="sort_year")
+    )
 
-        elif key == "asset_turnover_min":
-
-            filtered = filtered[
-                filtered["asset_turnover"] >= value
-            ]
-
-        elif key == "net_profit_min":
-
-            filtered = filtered[
-                filtered["net_profit"] >= value
-            ]
-
-        elif key == "eps_cagr_5yr_min":
-
-            filtered = filtered[
-                filtered["eps_cagr_5yr"] >= value
-            ]
-    return filtered
-
-
+    return df
 def run_screener(preset_name):
     """
     Run a screener preset.
     """
 
+    # Load data
     df = load_financial_ratios()
+    print(df["return_on_equity_pct"].count())
+    # Add composite scores
+    df = add_composite_scores(df)
 
+    # Keep only latest record of each company
+    df = latest_company_records(df)
+
+    # Load screener config
     config = load_config(
         "config/screener_config.yaml"
     )
 
     filters = config[preset_name]
+    print("\nTop Calculated ROE")
+    print(
+        df[
+            ["company_id", "return_on_equity_pct"]
+        ]
+        .sort_values(
+            "return_on_equity_pct",
+            ascending=False
+        )
+        .head(15)
+    )
 
+    print("\nTop Analysis ROE")
+    print(
+        df[
+            ["company_id", "roe_percentage"]
+        ]
+        .sort_values(
+            "roe_percentage",
+            ascending=False
+        )
+        .head(15)
+    )
+    print("\nCalculated ROE")
+    print(df["return_on_equity_pct"].describe())
+
+    print("\nAnalysis ROE")
+    print(df["roe_percentage"].describe())
+    # Apply filters on latest records
     result = apply_filters(
         df,
         filters

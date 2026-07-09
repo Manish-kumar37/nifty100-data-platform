@@ -37,7 +37,9 @@ from src.analytics.validator import (
 )
 PROJECT_ROOT = Path.cwd()
 DB_PATH = PROJECT_ROOT / "nifty100.db"
+import os
 
+print(os.path.abspath(DB_PATH))
 
 def create_connection():
     """
@@ -144,13 +146,29 @@ def build_base_dataframe():
     # Remove duplicate id column after merge
     if "id" in df.columns:
         df.drop(columns=["id"], inplace=True)
-    
+    print("\nMissing Values")
+    print("Net Profit:", df["net_profit"].isna().sum())
+    print("Equity Capital:", df["equity_capital"].isna().sum())
+    print("Reserves:", df["reserves"].isna().sum())
+
+    print("\nSample")
+    print(
+        df[
+            [
+                "company_id",
+                "year",
+                "net_profit",
+                "equity_capital",
+                "reserves"
+            ]
+        ].head(20)
+    )
     return df
 def calculate_ratios(df):
     """
     Compute financial KPIs for every company-year.
     """
-
+   
     # ----------------------------
     # Profitability
     # ----------------------------
@@ -282,8 +300,10 @@ def calculate_ratios(df):
                 f"{row['year']} | "
                 f"Financial company - High D/E ignored"
             )
-
+    print(df["return_on_equity_pct"].count())
+    print(df["return_on_equity_pct"].head(20))
     return df
+
 def calculate_metric_cagr(
     df,
     metric,
