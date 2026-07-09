@@ -364,3 +364,11 @@ Sprint 4  ░░░░░░░░░░   0%
 - Sprint 5 – Forecasting
 - Dashboard Deployment
 - REST API
+
+## Backlog / Future Improvements
+
+- Improve ROE calculation methodology
+- Add P/E, P/B, Dividend Yield and Market Cap support
+- Add conditional formatting to Excel reports
+- Refactor shared helper functions
+- Optimize report generation performance
