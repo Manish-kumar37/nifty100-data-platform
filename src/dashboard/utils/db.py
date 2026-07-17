@@ -14,6 +14,13 @@ DB_PATH = "nifty100.db"
 # ==========================================================
 # Core Query Function
 # ==========================================================
+def get_company_info(ticker):
+    query = """
+    SELECT *
+    FROM companies
+    WHERE id = ?
+    """
+    return run_query(query, (ticker,))
 
 @st.cache_data(ttl=600)
 def run_query(query, params=None):
@@ -114,6 +121,35 @@ def get_latest_ratios():
 
     return df
 
+@st.cache_data(ttl=600)
+def get_peer_comparison(company):
+
+    ratios = get_latest_ratios()
+    peer_groups = get_peer_groups()
+
+    group = peer_groups.loc[
+        peer_groups["company_id"] == company,
+        "peer_group_name"
+    ]
+
+    if group.empty:
+        return pd.DataFrame(), None
+
+    peer_group = group.iloc[0]
+
+    peers = peer_groups[
+        peer_groups["peer_group_name"] == peer_group
+    ][["company_id", "is_benchmark"]].copy()
+
+    result = pd.merge(
+        peers,
+        ratios,
+        on="company_id",
+        how="left",
+        validate="one_to_one"
+    )
+
+    return result, peer_group
 
 # ==========================================================
 # Dashboard Functions
@@ -158,3 +194,26 @@ def get_top_quality(year):
         )
         .head(5)
     )
+
+def get_screener_data():
+    query = """
+    SELECT
+        company_id,
+        broad_sector,
+        roe_percentage,
+        roce_percentage,
+        debt_to_equity,
+        revenue_cagr_5yr,
+        free_cash_flow_cr
+    FROM financial_ratios
+    WHERE year = (
+        SELECT MAX(year)
+        FROM financial_ratios
+        WHERE year != 'TTM'
+    )
+    """
+    return run_query(query)
+
+def get_screener_data():
+    return get_latest_ratios()
+
