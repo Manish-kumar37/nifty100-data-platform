@@ -217,3 +217,11 @@ def get_screener_data():
 def get_screener_data():
     return get_latest_ratios()
 
+def get_sector_companies(sector):
+    query = """
+    SELECT *
+    FROM latest_ratios
+    WHERE sector = ?
+    """
+    return run_query(query, (sector,))
+
