@@ -1,93 +1,734 @@
-company_id,pros,cons
-TVSMOTOR,High return on equity indicates efficient capital utilization.,High debt levels increase financial risk. | Negative free cash flow may indicate cash generation issues. | Low profit margins may affect long-term profitability.
-INDIGO,High return on equity indicates efficient capital utilization. | Low debt levels reduce financial risk. | Positive free cash flow supports future growth. | Strong interest coverage indicates healthy debt servicing.,
-ADANIENT,,High debt levels increase financial risk. | Negative free cash flow may indicate cash generation issues. | Low profit margins may affect long-term profitability. | Low return on equity indicates inefficient capital utilization.
-MOTHERSON,Positive free cash flow supports future growth. | Strong interest coverage indicates healthy debt servicing.,Low profit margins may affect long-term profitability.
-LTIM,High return on equity indicates efficient capital utilization. | Low debt levels reduce financial risk. | Positive free cash flow supports future growth. | Strong interest coverage indicates healthy debt servicing.,
-LT,High return on equity indicates efficient capital utilization. | Low debt levels reduce financial risk. | Positive free cash flow supports future growth.,
-M&M,,High debt levels increase financial risk. | Negative free cash flow may indicate cash generation issues.
-ADANIPOWER,High return on equity indicates efficient capital utilization. | Positive free cash flow supports future growth. | Strong interest coverage indicates healthy debt servicing. | Healthy profit margins reflect operational efficiency.,
-ADANIPORTS,Positive free cash flow supports future growth. | Strong interest coverage indicates healthy debt servicing. | Healthy profit margins reflect operational efficiency.,
-ADANIGREEN,,High debt levels increase financial risk. | Negative free cash flow may indicate cash generation issues. | Weak interest coverage suggests repayment pressure.
-BRITANNIA,High return on equity indicates efficient capital utilization. | Positive free cash flow supports future growth. | Strong interest coverage indicates healthy debt servicing.,
-BPCL,High return on equity indicates efficient capital utilization. | Positive free cash flow supports future growth. | Strong interest coverage indicates healthy debt servicing.,
-TATAMOTORS,High return on equity indicates efficient capital utilization. | Positive free cash flow supports future growth. | Strong interest coverage indicates healthy debt servicing.,High debt levels increase financial risk.
-NESTLEIND,High return on equity indicates efficient capital utilization. | Low debt levels reduce financial risk. | Positive free cash flow supports future growth. | Strong interest coverage indicates healthy debt servicing. | Healthy profit margins reflect operational efficiency.,
-JSWSTEEL,,High debt levels increase financial risk. | Negative free cash flow may indicate cash generation issues.
-JSWENERGY,Healthy profit margins reflect operational efficiency.,High debt levels increase financial risk. | Negative free cash flow may indicate cash generation issues. | Low return on equity indicates inefficient capital utilization.
-BOSCHLTD,High return on equity indicates efficient capital utilization. | Low debt levels reduce financial risk. | Positive free cash flow supports future growth. | Strong interest coverage indicates healthy debt servicing.,
-BHEL,Low debt levels reduce financial risk.,Negative free cash flow may indicate cash generation issues. | Weak interest coverage suggests repayment pressure. | Low profit margins may affect long-term profitability. | Low return on equity indicates inefficient capital utilization.
-BEL,High return on equity indicates efficient capital utilization. | Strong interest coverage indicates healthy debt servicing. | Healthy profit margins reflect operational efficiency.,Negative free cash flow may indicate cash generation issues.
-TATAPOWER,Positive free cash flow supports future growth.,High debt levels increase financial risk.
-CANBK,Positive free cash flow supports future growth.,High debt levels increase financial risk. | Weak interest coverage suggests repayment pressure.
-NTPC,Positive free cash flow supports future growth.,High debt levels increase financial risk.
-SIEMENS,Low debt levels reduce financial risk. | Positive free cash flow supports future growth. | Strong interest coverage indicates healthy debt servicing.,
-CIPLA,Low debt levels reduce financial risk. | Positive free cash flow supports future growth. | Strong interest coverage indicates healthy debt servicing. | Healthy profit margins reflect operational efficiency.,
-CHOLAFIN,Strong interest coverage indicates healthy debt servicing. | Healthy profit margins reflect operational efficiency.,High debt levels increase financial risk. | Negative free cash flow may indicate cash generation issues.
-TATACONSUM,Low debt levels reduce financial risk. | Positive free cash flow supports future growth. | Strong interest coverage indicates healthy debt servicing.,Low return on equity indicates inefficient capital utilization.
-SUNPHARMA,Low debt levels reduce financial risk. | Positive free cash flow supports future growth. | Strong interest coverage indicates healthy debt servicing. | Healthy profit margins reflect operational efficiency.,
-DIVISLAB,Low debt levels reduce financial risk. | Positive free cash flow supports future growth. | Strong interest coverage indicates healthy debt servicing. | Healthy profit margins reflect operational efficiency.,
-DABUR,Low debt levels reduce financial risk. | Positive free cash flow supports future growth. | Strong interest coverage indicates healthy debt servicing.,
-COALINDIA,High return on equity indicates efficient capital utilization. | Low debt levels reduce financial risk. | Positive free cash flow supports future growth. | Strong interest coverage indicates healthy debt servicing. | Healthy profit margins reflect operational efficiency.,
-DRREDDY,Low debt levels reduce financial risk. | Positive free cash flow supports future growth. | Strong interest coverage indicates healthy debt servicing. | Healthy profit margins reflect operational efficiency.,
-KOTAKBANK,Positive free cash flow supports future growth. | Healthy profit margins reflect operational efficiency.,High debt levels increase financial risk. | Weak interest coverage suggests repayment pressure.
-NHPC,Positive free cash flow supports future growth. | Strong interest coverage indicates healthy debt servicing. | Healthy profit margins reflect operational efficiency.,
-BHARTIARTL,Positive free cash flow supports future growth.,High debt levels increase financial risk.
-BANKBARODA,Healthy profit margins reflect operational efficiency.,High debt levels increase financial risk. | Negative free cash flow may indicate cash generation issues. | Weak interest coverage suggests repayment pressure.
-BAJFINANCE,Strong interest coverage indicates healthy debt servicing. | Healthy profit margins reflect operational efficiency.,High debt levels increase financial risk. | Negative free cash flow may indicate cash generation issues.
-BAJAJHLDNG,Low debt levels reduce financial risk. | Positive free cash flow supports future growth. | Strong interest coverage indicates healthy debt servicing. | Healthy profit margins reflect operational efficiency.,
-DMART,Low debt levels reduce financial risk. | Positive free cash flow supports future growth. | Strong interest coverage indicates healthy debt servicing.,Low profit margins may affect long-term profitability.
-DLF,Low debt levels reduce financial risk. | Positive free cash flow supports future growth. | Strong interest coverage indicates healthy debt servicing. | Healthy profit margins reflect operational efficiency.,Low return on equity indicates inefficient capital utilization.
-SHRIRAMFIN,Healthy profit margins reflect operational efficiency.,High debt levels increase financial risk. | Negative free cash flow may indicate cash generation issues. | Weak interest coverage suggests repayment pressure.
-JIOFIN,Low debt levels reduce financial risk. | Positive free cash flow supports future growth. | Strong interest coverage indicates healthy debt servicing. | Healthy profit margins reflect operational efficiency.,Low return on equity indicates inefficient capital utilization.
-JINDALSTEL,Low debt levels reduce financial risk. | Strong interest coverage indicates healthy debt servicing.,Negative free cash flow may indicate cash generation issues.
-ITC,High return on equity indicates efficient capital utilization. | Low debt levels reduce financial risk. | Positive free cash flow supports future growth. | Strong interest coverage indicates healthy debt servicing. | Healthy profit margins reflect operational efficiency.,
-IRFC,Positive free cash flow supports future growth. | Healthy profit margins reflect operational efficiency.,High debt levels increase financial risk. | Weak interest coverage suggests repayment pressure.
-IRCTC,High return on equity indicates efficient capital utilization. | Low debt levels reduce financial risk. | Positive free cash flow supports future growth. | Strong interest coverage indicates healthy debt servicing. | Healthy profit margins reflect operational efficiency.,
-GODREJCP,Low debt levels reduce financial risk.,Negative free cash flow may indicate cash generation issues. | Low profit margins may affect long-term profitability. | Low return on equity indicates inefficient capital utilization.
-GAIL,Low debt levels reduce financial risk. | Positive free cash flow supports future growth. | Strong interest coverage indicates healthy debt servicing.,
-EICHERMOT,High return on equity indicates efficient capital utilization. | Low debt levels reduce financial risk. | Positive free cash flow supports future growth. | Strong interest coverage indicates healthy debt servicing. | Healthy profit margins reflect operational efficiency.,
-SHREECEM,Low debt levels reduce financial risk. | Positive free cash flow supports future growth. | Strong interest coverage indicates healthy debt servicing.,Low return on equity indicates inefficient capital utilization.
-BAJAJFINSV,High return on equity indicates efficient capital utilization.,High debt levels increase financial risk. | Negative free cash flow may indicate cash generation issues.
-TCS,High return on equity indicates efficient capital utilization. | Low debt levels reduce financial risk. | Positive free cash flow supports future growth. | Strong interest coverage indicates healthy debt servicing. | Healthy profit margins reflect operational efficiency.,
-LODHA,Low debt levels reduce financial risk. | Strong interest coverage indicates healthy debt servicing. | Healthy profit margins reflect operational efficiency.,Negative free cash flow may indicate cash generation issues. | Low return on equity indicates inefficient capital utilization.
-LICI,High return on equity indicates efficient capital utilization. | Low debt levels reduce financial risk. | Positive free cash flow supports future growth. | Strong interest coverage indicates healthy debt servicing.,Low profit margins may affect long-term profitability.
-RELIANCE,Positive free cash flow supports future growth. | Strong interest coverage indicates healthy debt servicing.,Low return on equity indicates inefficient capital utilization.
-HAL,High return on equity indicates efficient capital utilization. | Positive free cash flow supports future growth. | Strong interest coverage indicates healthy debt servicing. | Healthy profit margins reflect operational efficiency.,
-GRASIM,,High debt levels increase financial risk. | Negative free cash flow may indicate cash generation issues.
-SBIN,Positive free cash flow supports future growth. | Healthy profit margins reflect operational efficiency.,Weak interest coverage suggests repayment pressure.
-SBILIFE,Low debt levels reduce financial risk. | Strong interest coverage indicates healthy debt servicing.,Negative free cash flow may indicate cash generation issues. | Low profit margins may affect long-term profitability.
-HDFCBANK,Positive free cash flow supports future growth. | Healthy profit margins reflect operational efficiency.,High debt levels increase financial risk. | Weak interest coverage suggests repayment pressure.
-HCLTECH,High return on equity indicates efficient capital utilization. | Low debt levels reduce financial risk. | Positive free cash flow supports future growth. | Strong interest coverage indicates healthy debt servicing.,
-HAVELLS,Low debt levels reduce financial risk. | Positive free cash flow supports future growth. | Strong interest coverage indicates healthy debt servicing.,
-ONGC,Low debt levels reduce financial risk. | Positive free cash flow supports future growth. | Strong interest coverage indicates healthy debt servicing.,
-IOC,High return on equity indicates efficient capital utilization. | Positive free cash flow supports future growth. | Strong interest coverage indicates healthy debt servicing.,
-INFY,High return on equity indicates efficient capital utilization. | Low debt levels reduce financial risk. | Positive free cash flow supports future growth. | Strong interest coverage indicates healthy debt servicing. | Healthy profit margins reflect operational efficiency.,
-HINDALCO,Positive free cash flow supports future growth. | Strong interest coverage indicates healthy debt servicing.,Low profit margins may affect long-term profitability. | Low return on equity indicates inefficient capital utilization.
-HEROMOTOCO,High return on equity indicates efficient capital utilization. | Low debt levels reduce financial risk. | Positive free cash flow supports future growth. | Strong interest coverage indicates healthy debt servicing.,
-HDFCLIFE,Low debt levels reduce financial risk. | Strong interest coverage indicates healthy debt servicing.,Negative free cash flow may indicate cash generation issues. | Low profit margins may affect long-term profitability.
-RECLTD,High return on equity indicates efficient capital utilization. | Healthy profit margins reflect operational efficiency.,High debt levels increase financial risk. | Negative free cash flow may indicate cash generation issues. | Weak interest coverage suggests repayment pressure.
-AXISBANK,Healthy profit margins reflect operational efficiency.,High debt levels increase financial risk. | Negative free cash flow may indicate cash generation issues. | Weak interest coverage suggests repayment pressure.
-BAJAJ-AUTO,High return on equity indicates efficient capital utilization. | Low debt levels reduce financial risk. | Positive free cash flow supports future growth. | Strong interest coverage indicates healthy debt servicing. | Healthy profit margins reflect operational efficiency.,
-TITAN,High return on equity indicates efficient capital utilization. | Positive free cash flow supports future growth. | Strong interest coverage indicates healthy debt servicing.,High debt levels increase financial risk.
-TECHM,Low debt levels reduce financial risk. | Positive free cash flow supports future growth. | Strong interest coverage indicates healthy debt servicing.,Low profit margins may affect long-term profitability. | Low return on equity indicates inefficient capital utilization.
-ATGL,Low debt levels reduce financial risk. | Strong interest coverage indicates healthy debt servicing.,
-TATASTEEL,Positive free cash flow supports future growth.,Low profit margins may affect long-term profitability. | Low return on equity indicates inefficient capital utilization.
-PIDILITIND,High return on equity indicates efficient capital utilization. | Low debt levels reduce financial risk. | Positive free cash flow supports future growth. | Strong interest coverage indicates healthy debt servicing.,
-ICICIBANK,Positive free cash flow supports future growth. | Healthy profit margins reflect operational efficiency.,High debt levels increase financial risk. | Weak interest coverage suggests repayment pressure.
-HINDUNILVR,High return on equity indicates efficient capital utilization. | Low debt levels reduce financial risk. | Positive free cash flow supports future growth. | Strong interest coverage indicates healthy debt servicing. | Healthy profit margins reflect operational efficiency.,
-POWERGRID,Positive free cash flow supports future growth. | Healthy profit margins reflect operational efficiency.,High debt levels increase financial risk.
-PFC,High return on equity indicates efficient capital utilization. | Healthy profit margins reflect operational efficiency.,High debt levels increase financial risk. | Negative free cash flow may indicate cash generation issues. | Weak interest coverage suggests repayment pressure.
-INDUSINDBK,Healthy profit margins reflect operational efficiency.,High debt levels increase financial risk. | Negative free cash flow may indicate cash generation issues. | Weak interest coverage suggests repayment pressure.
-NAUKRI,Low debt levels reduce financial risk. | Strong interest coverage indicates healthy debt servicing. | Healthy profit margins reflect operational efficiency.,Negative free cash flow may indicate cash generation issues. | Low return on equity indicates inefficient capital utilization.
-ASIANPAINT,High return on equity indicates efficient capital utilization. | Low debt levels reduce financial risk. | Positive free cash flow supports future growth. | Strong interest coverage indicates healthy debt servicing. | Healthy profit margins reflect operational efficiency.,
-APOLLOHOSP,Positive free cash flow supports future growth. | Strong interest coverage indicates healthy debt servicing.,Low profit margins may affect long-term profitability.
-AMBUJACEM,Low debt levels reduce financial risk. | Strong interest coverage indicates healthy debt servicing.,Negative free cash flow may indicate cash generation issues.
-TORNTPHARM,High return on equity indicates efficient capital utilization. | Positive free cash flow supports future growth. | Strong interest coverage indicates healthy debt servicing. | Healthy profit margins reflect operational efficiency.,
-ICICIPRULI,Low debt levels reduce financial risk. | Positive free cash flow supports future growth. | Strong interest coverage indicates healthy debt servicing.,Low profit margins may affect long-term profitability. | Low return on equity indicates inefficient capital utilization.
-ICICIGI,Low debt levels reduce financial risk. | Positive free cash flow supports future growth. | Strong interest coverage indicates healthy debt servicing.,
-PNB,High return on equity indicates efficient capital utilization.,High debt levels increase financial risk. | Negative free cash flow may indicate cash generation issues.
-ADANIENSOL,Positive free cash flow supports future growth.,High debt levels increase financial risk. | Low return on equity indicates inefficient capital utilization.
-ABB,High return on equity indicates efficient capital utilization. | Low debt levels reduce financial risk. | Positive free cash flow supports future growth. | Strong interest coverage indicates healthy debt servicing. | Healthy profit margins reflect operational efficiency.,
-MARUTI,Low debt levels reduce financial risk. | Positive free cash flow supports future growth. | Strong interest coverage indicates healthy debt servicing.,
-TRENT,High return on equity indicates efficient capital utilization. | Low debt levels reduce financial risk. | Positive free cash flow supports future growth. | Strong interest coverage indicates healthy debt servicing.,
+type,rule_id,text,confidence_pct,company_id
+pro,PR01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,95,HEROMOTOCO
+pro,PR02,Strong free cash flow generation indicates healthy business fundamentals.,90,HEROMOTOCO
+pro,PR05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,90,HEROMOTOCO
+pro,PR07,Very high interest coverage reflects negligible financial stress from debt servicing.,90,HEROMOTOCO
+pro,PR08,Healthy dividend payout reflects management's commitment to shareholder returns.,75,HEROMOTOCO
+con,CR05,Revenue growth below 5% over five years indicates limited business momentum.,85,HEROMOTOCO
+con,CR12,"Long-term revenue growth remains below 5%, indicating limited business expansion.",80,HEROMOTOCO
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,HEROMOTOCO
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,HEROMOTOCO
+pro,PR04,Revenue growing above 15% CAGR over five years reflects strong business momentum.,90,HDFCLIFE
+pro,PR05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,90,HDFCLIFE
+pro,PR07,Very high interest coverage reflects negligible financial stress from debt servicing.,90,HDFCLIFE
+pro,PR08,Healthy dividend payout reflects management's commitment to shareholder returns.,75,HDFCLIFE
+con,CR02,Negative free cash flow raises concerns about cash generation quality.,90,HDFCLIFE
+con,CR10,Return on capital employed below 10% suggests weak capital efficiency.,90,HDFCLIFE
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,HDFCLIFE
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,HDFCLIFE
+pro,PR04,Revenue growing above 15% CAGR over five years reflects strong business momentum.,90,SHRIRAMFIN
+pro,PR05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,90,SHRIRAMFIN
+pro,PR06,Net profit compounding above 20% over five years creates significant shareholder value.,90,SHRIRAMFIN
+pro,PR08,Healthy dividend payout reflects management's commitment to shareholder returns.,75,SHRIRAMFIN
+pro,PR11,Profit growing faster than revenue indicates improving operating leverage and scale benefits.,85,SHRIRAMFIN
+con,CR01,Debt-to-equity ratio of 3.99 is elevated and warrants monitoring.,95,SHRIRAMFIN
+con,CR02,Negative free cash flow raises concerns about cash generation quality.,90,SHRIRAMFIN
+con,CR06,Interest coverage below 1.5x indicates elevated debt servicing risk.,95,SHRIRAMFIN
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,SHRIRAMFIN
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,SHRIRAMFIN
+pro,PR01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,95,HAL
+pro,PR02,Strong free cash flow generation indicates healthy business fundamentals.,90,HAL
+pro,PR05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,90,HAL
+pro,PR06,Net profit compounding above 20% over five years creates significant shareholder value.,90,HAL
+pro,PR07,Very high interest coverage reflects negligible financial stress from debt servicing.,90,HAL
+pro,PR08,Healthy dividend payout reflects management's commitment to shareholder returns.,75,HAL
+pro,PR09,EPS growing above 15% CAGR indicates strong earnings quality and long-term compounding.,90,HAL
+pro,PR11,Profit growing faster than revenue indicates improving operating leverage and scale benefits.,85,HAL
+con,CR08,"Debt-to-equity ratio has increased for three consecutive years, indicating rising leverage risk.",90,HAL
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,HAL
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,HAL
+pro,PR02,Strong free cash flow generation indicates healthy business fundamentals.,90,HAVELLS
+pro,PR07,Very high interest coverage reflects negligible financial stress from debt servicing.,90,HAVELLS
+pro,PR08,Healthy dividend payout reflects management's commitment to shareholder returns.,75,HAVELLS
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,HAVELLS
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,HAVELLS
+pro,PR02,Strong free cash flow generation indicates healthy business fundamentals.,90,DIVISLAB
+pro,PR03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95,DIVISLAB
+pro,PR05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,90,DIVISLAB
+pro,PR07,Very high interest coverage reflects negligible financial stress from debt servicing.,90,DIVISLAB
+pro,PR08,Healthy dividend payout reflects management's commitment to shareholder returns.,75,DIVISLAB
+con,CR09,"Earnings per share have declined for three consecutive years, indicating weakening profitability.",90,DIVISLAB
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,DIVISLAB
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,DIVISLAB
+pro,PR02,Strong free cash flow generation indicates healthy business fundamentals.,90,TATACONSUM
+pro,PR04,Revenue growing above 15% CAGR over five years reflects strong business momentum.,90,TATACONSUM
+pro,PR06,Net profit compounding above 20% over five years creates significant shareholder value.,90,TATACONSUM
+pro,PR07,Very high interest coverage reflects negligible financial stress from debt servicing.,90,TATACONSUM
+pro,PR08,Healthy dividend payout reflects management's commitment to shareholder returns.,75,TATACONSUM
+pro,PR11,Profit growing faster than revenue indicates improving operating leverage and scale benefits.,85,TATACONSUM
+con,CR08,"Debt-to-equity ratio has increased for three consecutive years, indicating rising leverage risk.",90,TATACONSUM
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,TATACONSUM
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,TATACONSUM
+pro,PR02,Strong free cash flow generation indicates healthy business fundamentals.,90,DABUR
+pro,PR07,Very high interest coverage reflects negligible financial stress from debt servicing.,90,DABUR
+pro,PR08,Healthy dividend payout reflects management's commitment to shareholder returns.,75,DABUR
+con,CR08,"Debt-to-equity ratio has increased for three consecutive years, indicating rising leverage risk.",90,DABUR
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,DABUR
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,DABUR
+pro,PR02,Strong free cash flow generation indicates healthy business fundamentals.,90,GAIL
+pro,PR07,Very high interest coverage reflects negligible financial stress from debt servicing.,90,GAIL
+pro,PR08,Healthy dividend payout reflects management's commitment to shareholder returns.,75,GAIL
+con,CR08,"Debt-to-equity ratio has increased for three consecutive years, indicating rising leverage risk.",90,GAIL
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,GAIL
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,GAIL
+pro,PR01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,95,EICHERMOT
+pro,PR02,Strong free cash flow generation indicates healthy business fundamentals.,90,EICHERMOT
+pro,PR05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,90,EICHERMOT
+pro,PR07,Very high interest coverage reflects negligible financial stress from debt servicing.,90,EICHERMOT
+pro,PR08,Healthy dividend payout reflects management's commitment to shareholder returns.,75,EICHERMOT
+pro,PR11,Profit growing faster than revenue indicates improving operating leverage and scale benefits.,85,EICHERMOT
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,EICHERMOT
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,EICHERMOT
+pro,PR02,Strong free cash flow generation indicates healthy business fundamentals.,90,HINDALCO
+pro,PR05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,90,HINDALCO
+pro,PR07,Very high interest coverage reflects negligible financial stress from debt servicing.,90,HINDALCO
+pro,PR11,Profit growing faster than revenue indicates improving operating leverage and scale benefits.,85,HINDALCO
+pro,PR12,Growing asset base funded with declining borrowings reflects self-sustaining growth.,85,HINDALCO
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,HINDALCO
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,HINDALCO
+pro,PR02,Strong free cash flow generation indicates healthy business fundamentals.,90,SIEMENS
+pro,PR07,Very high interest coverage reflects negligible financial stress from debt servicing.,90,SIEMENS
+pro,PR09,EPS growing above 15% CAGR indicates strong earnings quality and long-term compounding.,90,SIEMENS
+pro,PR11,Profit growing faster than revenue indicates improving operating leverage and scale benefits.,85,SIEMENS
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,SIEMENS
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,SIEMENS
+pro,PR01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,95,INFY
+pro,PR02,Strong free cash flow generation indicates healthy business fundamentals.,90,INFY
+pro,PR07,Very high interest coverage reflects negligible financial stress from debt servicing.,90,INFY
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,INFY
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,INFY
+pro,PR03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95,SBILIFE
+pro,PR04,Revenue growing above 15% CAGR over five years reflects strong business momentum.,90,SBILIFE
+pro,PR07,Very high interest coverage reflects negligible financial stress from debt servicing.,90,SBILIFE
+con,CR02,Negative free cash flow raises concerns about cash generation quality.,90,SBILIFE
+con,CR03,Operating margins are weak and may indicate pricing or cost pressure.,85,SBILIFE
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,SBILIFE
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,SBILIFE
+pro,PR04,Revenue growing above 15% CAGR over five years reflects strong business momentum.,90,INDUSINDBK
+pro,PR05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,90,INDUSINDBK
+pro,PR06,Net profit compounding above 20% over five years creates significant shareholder value.,90,INDUSINDBK
+pro,PR09,EPS growing above 15% CAGR indicates strong earnings quality and long-term compounding.,90,INDUSINDBK
+pro,PR11,Profit growing faster than revenue indicates improving operating leverage and scale benefits.,85,INDUSINDBK
+con,CR01,Debt-to-equity ratio of 6.89 is elevated and warrants monitoring.,95,INDUSINDBK
+con,CR02,Negative free cash flow raises concerns about cash generation quality.,90,INDUSINDBK
+con,CR10,Return on capital employed below 10% suggests weak capital efficiency.,90,INDUSINDBK
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,INDUSINDBK
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,INDUSINDBK
+pro,PR02,Strong free cash flow generation indicates healthy business fundamentals.,90,RELIANCE
+pro,PR11,Profit growing faster than revenue indicates improving operating leverage and scale benefits.,85,RELIANCE
+con,CR10,Return on capital employed below 10% suggests weak capital efficiency.,90,RELIANCE
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,RELIANCE
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,RELIANCE
+pro,PR01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,95,HCLTECH
+pro,PR02,Strong free cash flow generation indicates healthy business fundamentals.,90,HCLTECH
+pro,PR07,Very high interest coverage reflects negligible financial stress from debt servicing.,90,HCLTECH
+pro,PR08,Healthy dividend payout reflects management's commitment to shareholder returns.,75,HCLTECH
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,HCLTECH
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,HCLTECH
+pro,PR01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,95,IOC
+pro,PR02,Strong free cash flow generation indicates healthy business fundamentals.,90,IOC
+pro,PR06,Net profit compounding above 20% over five years creates significant shareholder value.,90,IOC
+pro,PR07,Very high interest coverage reflects negligible financial stress from debt servicing.,90,IOC
+pro,PR08,Healthy dividend payout reflects management's commitment to shareholder returns.,75,IOC
+pro,PR09,EPS growing above 15% CAGR indicates strong earnings quality and long-term compounding.,90,IOC
+pro,PR11,Profit growing faster than revenue indicates improving operating leverage and scale benefits.,85,IOC
+con,CR03,Operating margins are weak and may indicate pricing or cost pressure.,85,IOC
+con,CR12,"Long-term revenue growth remains below 5%, indicating limited business expansion.",80,IOC
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,IOC
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,IOC
+pro,PR02,Strong free cash flow generation indicates healthy business fundamentals.,90,SHREECEM
+pro,PR07,Very high interest coverage reflects negligible financial stress from debt servicing.,90,SHREECEM
+pro,PR11,Profit growing faster than revenue indicates improving operating leverage and scale benefits.,85,SHREECEM
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,SHREECEM
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,SHREECEM
+pro,PR06,Net profit compounding above 20% over five years creates significant shareholder value.,90,GRASIM
+pro,PR09,EPS growing above 15% CAGR indicates strong earnings quality and long-term compounding.,90,GRASIM
+pro,PR11,Profit growing faster than revenue indicates improving operating leverage and scale benefits.,85,GRASIM
+con,CR02,Negative free cash flow raises concerns about cash generation quality.,90,GRASIM
+con,CR08,"Debt-to-equity ratio has increased for three consecutive years, indicating rising leverage risk.",90,GRASIM
+con,CR09,"Earnings per share have declined for three consecutive years, indicating weakening profitability.",90,GRASIM
+con,CR10,Return on capital employed below 10% suggests weak capital efficiency.,90,GRASIM
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,GRASIM
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,GRASIM
+pro,PR02,Strong free cash flow generation indicates healthy business fundamentals.,90,SBIN
+pro,PR06,Net profit compounding above 20% over five years creates significant shareholder value.,90,SBIN
+pro,PR09,EPS growing above 15% CAGR indicates strong earnings quality and long-term compounding.,90,SBIN
+pro,PR11,Profit growing faster than revenue indicates improving operating leverage and scale benefits.,85,SBIN
+con,CR03,Operating margins are weak and may indicate pricing or cost pressure.,85,SBIN
+con,CR06,Interest coverage below 1.5x indicates elevated debt servicing risk.,95,SBIN
+con,CR10,Return on capital employed below 10% suggests weak capital efficiency.,90,SBIN
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,SBIN
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,SBIN
+pro,PR02,Strong free cash flow generation indicates healthy business fundamentals.,90,NTPC
+pro,PR05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,90,NTPC
+pro,PR08,Healthy dividend payout reflects management's commitment to shareholder returns.,75,NTPC
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,NTPC
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,NTPC
+pro,PR02,Strong free cash flow generation indicates healthy business fundamentals.,90,ADANIPORTS
+pro,PR04,Revenue growing above 15% CAGR over five years reflects strong business momentum.,90,ADANIPORTS
+pro,PR05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,90,ADANIPORTS
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,ADANIPORTS
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,ADANIPORTS
+pro,PR02,Strong free cash flow generation indicates healthy business fundamentals.,90,NHPC
+pro,PR05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,90,NHPC
+pro,PR07,Very high interest coverage reflects negligible financial stress from debt servicing.,90,NHPC
+pro,PR08,Healthy dividend payout reflects management's commitment to shareholder returns.,75,NHPC
+pro,PR11,Profit growing faster than revenue indicates improving operating leverage and scale benefits.,85,NHPC
+con,CR05,Revenue growth below 5% over five years indicates limited business momentum.,85,NHPC
+con,CR08,"Debt-to-equity ratio has increased for three consecutive years, indicating rising leverage risk.",90,NHPC
+con,CR10,Return on capital employed below 10% suggests weak capital efficiency.,90,NHPC
+con,CR12,"Long-term revenue growth remains below 5%, indicating limited business expansion.",80,NHPC
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,NHPC
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,NHPC
+pro,PR01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,95,TRENT
+pro,PR02,Strong free cash flow generation indicates healthy business fundamentals.,90,TRENT
+pro,PR04,Revenue growing above 15% CAGR over five years reflects strong business momentum.,90,TRENT
+pro,PR06,Net profit compounding above 20% over five years creates significant shareholder value.,90,TRENT
+pro,PR09,EPS growing above 15% CAGR indicates strong earnings quality and long-term compounding.,90,TRENT
+pro,PR11,Profit growing faster than revenue indicates improving operating leverage and scale benefits.,85,TRENT
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,TRENT
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,TRENT
+pro,PR02,Strong free cash flow generation indicates healthy business fundamentals.,90,ADANIENSOL
+pro,PR04,Revenue growing above 15% CAGR over five years reflects strong business momentum.,90,ADANIENSOL
+pro,PR05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,90,ADANIENSOL
+con,CR01,Debt-to-equity ratio of 2.93 is elevated and warrants monitoring.,95,ADANIENSOL
+con,CR10,Return on capital employed below 10% suggests weak capital efficiency.,90,ADANIENSOL
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,ADANIENSOL
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,ADANIENSOL
+pro,PR04,Revenue growing above 15% CAGR over five years reflects strong business momentum.,90,ADANIENT
+pro,PR06,Net profit compounding above 20% over five years creates significant shareholder value.,90,ADANIENT
+pro,PR09,EPS growing above 15% CAGR indicates strong earnings quality and long-term compounding.,90,ADANIENT
+pro,PR11,Profit growing faster than revenue indicates improving operating leverage and scale benefits.,85,ADANIENT
+con,CR02,Negative free cash flow raises concerns about cash generation quality.,90,ADANIENT
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,ADANIENT
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,ADANIENT
+pro,PR04,Revenue growing above 15% CAGR over five years reflects strong business momentum.,90,ADANIGREEN
+pro,PR05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,90,ADANIGREEN
+con,CR01,Debt-to-equity ratio of 6.60 is elevated and warrants monitoring.,95,ADANIGREEN
+con,CR02,Negative free cash flow raises concerns about cash generation quality.,90,ADANIGREEN
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,ADANIGREEN
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,ADANIGREEN
+pro,PR02,Strong free cash flow generation indicates healthy business fundamentals.,90,ICICIBANK
+pro,PR04,Revenue growing above 15% CAGR over five years reflects strong business momentum.,90,ICICIBANK
+pro,PR05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,90,ICICIBANK
+pro,PR06,Net profit compounding above 20% over five years creates significant shareholder value.,90,ICICIBANK
+pro,PR09,EPS growing above 15% CAGR indicates strong earnings quality and long-term compounding.,90,ICICIBANK
+pro,PR11,Profit growing faster than revenue indicates improving operating leverage and scale benefits.,85,ICICIBANK
+con,CR01,Debt-to-equity ratio of 6.45 is elevated and warrants monitoring.,95,ICICIBANK
+con,CR06,Interest coverage below 1.5x indicates elevated debt servicing risk.,95,ICICIBANK
+con,CR10,Return on capital employed below 10% suggests weak capital efficiency.,90,ICICIBANK
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,ICICIBANK
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,ICICIBANK
+pro,PR08,Healthy dividend payout reflects management's commitment to shareholder returns.,75,TVSMOTOR
+pro,PR09,EPS growing above 15% CAGR indicates strong earnings quality and long-term compounding.,90,TVSMOTOR
+pro,PR11,Profit growing faster than revenue indicates improving operating leverage and scale benefits.,85,TVSMOTOR
+con,CR01,Debt-to-equity ratio of 3.83 is elevated and warrants monitoring.,95,TVSMOTOR
+con,CR02,Negative free cash flow raises concerns about cash generation quality.,90,TVSMOTOR
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,TVSMOTOR
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,TVSMOTOR
+pro,PR02,Strong free cash flow generation indicates healthy business fundamentals.,90,ONGC
+pro,PR07,Very high interest coverage reflects negligible financial stress from debt servicing.,90,ONGC
+pro,PR08,Healthy dividend payout reflects management's commitment to shareholder returns.,75,ONGC
+pro,PR11,Profit growing faster than revenue indicates improving operating leverage and scale benefits.,85,ONGC
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,ONGC
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,ONGC
+pro,PR01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,95,ABB
+pro,PR02,Strong free cash flow generation indicates healthy business fundamentals.,90,ABB
+pro,PR06,Net profit compounding above 20% over five years creates significant shareholder value.,90,ABB
+pro,PR07,Very high interest coverage reflects negligible financial stress from debt servicing.,90,ABB
+pro,PR08,Healthy dividend payout reflects management's commitment to shareholder returns.,75,ABB
+pro,PR09,EPS growing above 15% CAGR indicates strong earnings quality and long-term compounding.,90,ABB
+pro,PR11,Profit growing faster than revenue indicates improving operating leverage and scale benefits.,85,ABB
+pro,PR12,Growing asset base funded with declining borrowings reflects self-sustaining growth.,85,ABB
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,ABB
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,ABB
+pro,PR02,Strong free cash flow generation indicates healthy business fundamentals.,90,ICICIGI
+pro,PR03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95,ICICIGI
+pro,PR05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,90,ICICIGI
+pro,PR07,Very high interest coverage reflects negligible financial stress from debt servicing.,90,ICICIGI
+pro,PR08,Healthy dividend payout reflects management's commitment to shareholder returns.,75,ICICIGI
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,ICICIGI
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,ICICIGI
+pro,PR01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,95,HINDUNILVR
+pro,PR02,Strong free cash flow generation indicates healthy business fundamentals.,90,HINDUNILVR
+pro,PR05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,90,HINDUNILVR
+pro,PR07,Very high interest coverage reflects negligible financial stress from debt servicing.,90,HINDUNILVR
+pro,PR08,Healthy dividend payout reflects management's commitment to shareholder returns.,75,HINDUNILVR
+pro,PR11,Profit growing faster than revenue indicates improving operating leverage and scale benefits.,85,HINDUNILVR
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,HINDUNILVR
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,HINDUNILVR
+pro,PR02,Strong free cash flow generation indicates healthy business fundamentals.,90,ICICIPRULI
+pro,PR04,Revenue growing above 15% CAGR over five years reflects strong business momentum.,90,ICICIPRULI
+pro,PR05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,90,ICICIPRULI
+pro,PR07,Very high interest coverage reflects negligible financial stress from debt servicing.,90,ICICIPRULI
+con,CR10,Return on capital employed below 10% suggests weak capital efficiency.,90,ICICIPRULI
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,ICICIPRULI
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,ICICIPRULI
+pro,PR02,Strong free cash flow generation indicates healthy business fundamentals.,90,HDFCBANK
+pro,PR04,Revenue growing above 15% CAGR over five years reflects strong business momentum.,90,HDFCBANK
+pro,PR05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,90,HDFCBANK
+pro,PR06,Net profit compounding above 20% over five years creates significant shareholder value.,90,HDFCBANK
+pro,PR08,Healthy dividend payout reflects management's commitment to shareholder returns.,75,HDFCBANK
+pro,PR09,EPS growing above 15% CAGR indicates strong earnings quality and long-term compounding.,90,HDFCBANK
+pro,PR11,Profit growing faster than revenue indicates improving operating leverage and scale benefits.,85,HDFCBANK
+con,CR01,Debt-to-equity ratio of 6.81 is elevated and warrants monitoring.,95,HDFCBANK
+con,CR06,Interest coverage below 1.5x indicates elevated debt servicing risk.,95,HDFCBANK
+con,CR10,Return on capital employed below 10% suggests weak capital efficiency.,90,HDFCBANK
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,HDFCBANK
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,HDFCBANK
+pro,PR01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,95,BPCL
+pro,PR02,Strong free cash flow generation indicates healthy business fundamentals.,90,BPCL
+pro,PR06,Net profit compounding above 20% over five years creates significant shareholder value.,90,BPCL
+pro,PR07,Very high interest coverage reflects negligible financial stress from debt servicing.,90,BPCL
+pro,PR08,Healthy dividend payout reflects management's commitment to shareholder returns.,75,BPCL
+pro,PR09,EPS growing above 15% CAGR indicates strong earnings quality and long-term compounding.,90,BPCL
+pro,PR11,Profit growing faster than revenue indicates improving operating leverage and scale benefits.,85,BPCL
+con,CR03,Operating margins are weak and may indicate pricing or cost pressure.,85,BPCL
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,BPCL
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,BPCL
+pro,PR02,Strong free cash flow generation indicates healthy business fundamentals.,90,BOSCHLTD
+pro,PR03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95,BOSCHLTD
+pro,PR07,Very high interest coverage reflects negligible financial stress from debt servicing.,90,BOSCHLTD
+pro,PR08,Healthy dividend payout reflects management's commitment to shareholder returns.,75,BOSCHLTD
+pro,PR11,Profit growing faster than revenue indicates improving operating leverage and scale benefits.,85,BOSCHLTD
+pro,PR12,Growing asset base funded with declining borrowings reflects self-sustaining growth.,85,BOSCHLTD
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,BOSCHLTD
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,BOSCHLTD
+pro,PR02,Strong free cash flow generation indicates healthy business fundamentals.,90,TATASTEEL
+con,CR03,Operating margins are weak and may indicate pricing or cost pressure.,85,TATASTEEL
+con,CR04,Company reported a net loss in the most recent financial year.,95,TATASTEEL
+con,CR08,"Debt-to-equity ratio has increased for three consecutive years, indicating rising leverage risk.",90,TATASTEEL
+con,CR09,"Earnings per share have declined for three consecutive years, indicating weakening profitability.",90,TATASTEEL
+con,CR10,Return on capital employed below 10% suggests weak capital efficiency.,90,TATASTEEL
+con,CR12,"Long-term revenue growth remains below 5%, indicating limited business expansion.",80,TATASTEEL
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,TATASTEEL
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,TATASTEEL
+pro,PR08,Healthy dividend payout reflects management's commitment to shareholder returns.,75,BHEL
+con,CR02,Negative free cash flow raises concerns about cash generation quality.,90,BHEL
+con,CR03,Operating margins are weak and may indicate pricing or cost pressure.,85,BHEL
+con,CR05,Revenue growth below 5% over five years indicates limited business momentum.,85,BHEL
+con,CR08,"Debt-to-equity ratio has increased for three consecutive years, indicating rising leverage risk.",90,BHEL
+con,CR10,Return on capital employed below 10% suggests weak capital efficiency.,90,BHEL
+con,CR12,"Long-term revenue growth remains below 5%, indicating limited business expansion.",80,BHEL
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,BHEL
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,BHEL
+pro,PR02,Strong free cash flow generation indicates healthy business fundamentals.,90,KOTAKBANK
+pro,PR05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,90,KOTAKBANK
+pro,PR06,Net profit compounding above 20% over five years creates significant shareholder value.,90,KOTAKBANK
+pro,PR09,EPS growing above 15% CAGR indicates strong earnings quality and long-term compounding.,90,KOTAKBANK
+pro,PR11,Profit growing faster than revenue indicates improving operating leverage and scale benefits.,85,KOTAKBANK
+con,CR01,Debt-to-equity ratio of 4.00 is elevated and warrants monitoring.,95,KOTAKBANK
+con,CR06,Interest coverage below 1.5x indicates elevated debt servicing risk.,95,KOTAKBANK
+con,CR10,Return on capital employed below 10% suggests weak capital efficiency.,90,KOTAKBANK
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,KOTAKBANK
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,KOTAKBANK
+pro,PR04,Revenue growing above 15% CAGR over five years reflects strong business momentum.,90,JSWSTEEL
+pro,PR08,Healthy dividend payout reflects management's commitment to shareholder returns.,75,JSWSTEEL
+con,CR02,Negative free cash flow raises concerns about cash generation quality.,90,JSWSTEEL
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,JSWSTEEL
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,JSWSTEEL
+pro,PR01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,95,LICI
+pro,PR02,Strong free cash flow generation indicates healthy business fundamentals.,90,LICI
+pro,PR03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95,LICI
+pro,PR06,Net profit compounding above 20% over five years creates significant shareholder value.,90,LICI
+pro,PR07,Very high interest coverage reflects negligible financial stress from debt servicing.,90,LICI
+pro,PR11,Profit growing faster than revenue indicates improving operating leverage and scale benefits.,85,LICI
+con,CR03,Operating margins are weak and may indicate pricing or cost pressure.,85,LICI
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,LICI
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,LICI
+pro,PR02,Strong free cash flow generation indicates healthy business fundamentals.,90,POWERGRID
+pro,PR05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,90,POWERGRID
+pro,PR08,Healthy dividend payout reflects management's commitment to shareholder returns.,75,POWERGRID
+pro,PR11,Profit growing faster than revenue indicates improving operating leverage and scale benefits.,85,POWERGRID
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,POWERGRID
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,POWERGRID
+pro,PR02,Strong free cash flow generation indicates healthy business fundamentals.,90,TATAPOWER
+pro,PR04,Revenue growing above 15% CAGR over five years reflects strong business momentum.,90,TATAPOWER
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,TATAPOWER
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,TATAPOWER
+pro,PR01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,95,TATAMOTORS
+pro,PR02,Strong free cash flow generation indicates healthy business fundamentals.,90,TATAMOTORS
+pro,PR12,Growing asset base funded with declining borrowings reflects self-sustaining growth.,85,TATAMOTORS
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,TATAMOTORS
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,TATAMOTORS
+pro,PR02,Strong free cash flow generation indicates healthy business fundamentals.,90,DMART
+pro,PR04,Revenue growing above 15% CAGR over five years reflects strong business momentum.,90,DMART
+pro,PR06,Net profit compounding above 20% over five years creates significant shareholder value.,90,DMART
+pro,PR07,Very high interest coverage reflects negligible financial stress from debt servicing.,90,DMART
+pro,PR09,EPS growing above 15% CAGR indicates strong earnings quality and long-term compounding.,90,DMART
+pro,PR11,Profit growing faster than revenue indicates improving operating leverage and scale benefits.,85,DMART
+pro,PR12,Growing asset base funded with declining borrowings reflects self-sustaining growth.,85,DMART
+con,CR03,Operating margins are weak and may indicate pricing or cost pressure.,85,DMART
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,DMART
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,DMART
+pro,PR02,Strong free cash flow generation indicates healthy business fundamentals.,90,CANBK
+pro,PR04,Revenue growing above 15% CAGR over five years reflects strong business momentum.,90,CANBK
+pro,PR05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,90,CANBK
+pro,PR06,Net profit compounding above 20% over five years creates significant shareholder value.,90,CANBK
+pro,PR09,EPS growing above 15% CAGR indicates strong earnings quality and long-term compounding.,90,CANBK
+pro,PR11,Profit growing faster than revenue indicates improving operating leverage and scale benefits.,85,CANBK
+con,CR01,Debt-to-equity ratio of 14.87 is elevated and warrants monitoring.,95,CANBK
+con,CR10,Return on capital employed below 10% suggests weak capital efficiency.,90,CANBK
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,CANBK
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,CANBK
+pro,PR02,Strong free cash flow generation indicates healthy business fundamentals.,90,CIPLA
+pro,PR05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,90,CIPLA
+pro,PR06,Net profit compounding above 20% over five years creates significant shareholder value.,90,CIPLA
+pro,PR07,Very high interest coverage reflects negligible financial stress from debt servicing.,90,CIPLA
+pro,PR08,Healthy dividend payout reflects management's commitment to shareholder returns.,75,CIPLA
+pro,PR09,EPS growing above 15% CAGR indicates strong earnings quality and long-term compounding.,90,CIPLA
+pro,PR11,Profit growing faster than revenue indicates improving operating leverage and scale benefits.,85,CIPLA
+pro,PR12,Growing asset base funded with declining borrowings reflects self-sustaining growth.,85,CIPLA
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,CIPLA
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,CIPLA
+pro,PR01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,95,CHOLAFIN
+pro,PR04,Revenue growing above 15% CAGR over five years reflects strong business momentum.,90,CHOLAFIN
+pro,PR05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,90,CHOLAFIN
+pro,PR06,Net profit compounding above 20% over five years creates significant shareholder value.,90,CHOLAFIN
+pro,PR07,Very high interest coverage reflects negligible financial stress from debt servicing.,90,CHOLAFIN
+pro,PR09,EPS growing above 15% CAGR indicates strong earnings quality and long-term compounding.,90,CHOLAFIN
+pro,PR11,Profit growing faster than revenue indicates improving operating leverage and scale benefits.,85,CHOLAFIN
+con,CR01,Debt-to-equity ratio of 6.86 is elevated and warrants monitoring.,95,CHOLAFIN
+con,CR02,Negative free cash flow raises concerns about cash generation quality.,90,CHOLAFIN
+con,CR08,"Debt-to-equity ratio has increased for three consecutive years, indicating rising leverage risk.",90,CHOLAFIN
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,CHOLAFIN
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,CHOLAFIN
+pro,PR05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,90,JSWENERGY
+pro,PR06,Net profit compounding above 20% over five years creates significant shareholder value.,90,JSWENERGY
+pro,PR09,EPS growing above 15% CAGR indicates strong earnings quality and long-term compounding.,90,JSWENERGY
+pro,PR11,Profit growing faster than revenue indicates improving operating leverage and scale benefits.,85,JSWENERGY
+con,CR02,Negative free cash flow raises concerns about cash generation quality.,90,JSWENERGY
+con,CR05,Revenue growth below 5% over five years indicates limited business momentum.,85,JSWENERGY
+con,CR08,"Debt-to-equity ratio has increased for three consecutive years, indicating rising leverage risk.",90,JSWENERGY
+con,CR10,Return on capital employed below 10% suggests weak capital efficiency.,90,JSWENERGY
+con,CR12,"Long-term revenue growth remains below 5%, indicating limited business expansion.",80,JSWENERGY
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,JSWENERGY
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,JSWENERGY
+pro,PR02,Strong free cash flow generation indicates healthy business fundamentals.,90,DLF
+pro,PR05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,90,DLF
+pro,PR08,Healthy dividend payout reflects management's commitment to shareholder returns.,75,DLF
+pro,PR11,Profit growing faster than revenue indicates improving operating leverage and scale benefits.,85,DLF
+con,CR05,Revenue growth below 5% over five years indicates limited business momentum.,85,DLF
+con,CR10,Return on capital employed below 10% suggests weak capital efficiency.,90,DLF
+con,CR12,"Long-term revenue growth remains below 5%, indicating limited business expansion.",80,DLF
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,DLF
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,DLF
+pro,PR01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,95,DRREDDY
+pro,PR02,Strong free cash flow generation indicates healthy business fundamentals.,90,DRREDDY
+pro,PR05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,90,DRREDDY
+pro,PR06,Net profit compounding above 20% over five years creates significant shareholder value.,90,DRREDDY
+pro,PR07,Very high interest coverage reflects negligible financial stress from debt servicing.,90,DRREDDY
+pro,PR09,EPS growing above 15% CAGR indicates strong earnings quality and long-term compounding.,90,DRREDDY
+pro,PR11,Profit growing faster than revenue indicates improving operating leverage and scale benefits.,85,DRREDDY
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,DRREDDY
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,DRREDDY
+pro,PR02,Strong free cash flow generation indicates healthy business fundamentals.,90,SUNPHARMA
+pro,PR05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,90,SUNPHARMA
+pro,PR06,Net profit compounding above 20% over five years creates significant shareholder value.,90,SUNPHARMA
+pro,PR07,Very high interest coverage reflects negligible financial stress from debt servicing.,90,SUNPHARMA
+pro,PR08,Healthy dividend payout reflects management's commitment to shareholder returns.,75,SUNPHARMA
+pro,PR09,EPS growing above 15% CAGR indicates strong earnings quality and long-term compounding.,90,SUNPHARMA
+pro,PR11,Profit growing faster than revenue indicates improving operating leverage and scale benefits.,85,SUNPHARMA
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,SUNPHARMA
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,SUNPHARMA
+con,CR02,Negative free cash flow raises concerns about cash generation quality.,90,JINDALSTEL
+con,CR05,Revenue growth below 5% over five years indicates limited business momentum.,85,JINDALSTEL
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,JINDALSTEL
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,JINDALSTEL
+pro,PR02,Strong free cash flow generation indicates healthy business fundamentals.,90,JIOFIN
+pro,PR03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95,JIOFIN
+pro,PR05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,90,JIOFIN
+pro,PR07,Very high interest coverage reflects negligible financial stress from debt servicing.,90,JIOFIN
+con,CR10,Return on capital employed below 10% suggests weak capital efficiency.,90,JIOFIN
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,JIOFIN
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,JIOFIN
+pro,PR01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,95,RECLTD
+pro,PR05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,90,RECLTD
+pro,PR08,Healthy dividend payout reflects management's commitment to shareholder returns.,75,RECLTD
+pro,PR09,EPS growing above 15% CAGR indicates strong earnings quality and long-term compounding.,90,RECLTD
+pro,PR11,Profit growing faster than revenue indicates improving operating leverage and scale benefits.,85,RECLTD
+con,CR01,Debt-to-equity ratio of 6.42 is elevated and warrants monitoring.,95,RECLTD
+con,CR02,Negative free cash flow raises concerns about cash generation quality.,90,RECLTD
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,RECLTD
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,RECLTD
+pro,PR01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,95,IRCTC
+pro,PR02,Strong free cash flow generation indicates healthy business fundamentals.,90,IRCTC
+pro,PR04,Revenue growing above 15% CAGR over five years reflects strong business momentum.,90,IRCTC
+pro,PR05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,90,IRCTC
+pro,PR06,Net profit compounding above 20% over five years creates significant shareholder value.,90,IRCTC
+pro,PR07,Very high interest coverage reflects negligible financial stress from debt servicing.,90,IRCTC
+pro,PR08,Healthy dividend payout reflects management's commitment to shareholder returns.,75,IRCTC
+pro,PR09,EPS growing above 15% CAGR indicates strong earnings quality and long-term compounding.,90,IRCTC
+pro,PR11,Profit growing faster than revenue indicates improving operating leverage and scale benefits.,85,IRCTC
+pro,PR12,Growing asset base funded with declining borrowings reflects self-sustaining growth.,85,IRCTC
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,IRCTC
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,IRCTC
+pro,PR02,Strong free cash flow generation indicates healthy business fundamentals.,90,IRFC
+pro,PR04,Revenue growing above 15% CAGR over five years reflects strong business momentum.,90,IRFC
+pro,PR05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,90,IRFC
+pro,PR06,Net profit compounding above 20% over five years creates significant shareholder value.,90,IRFC
+pro,PR08,Healthy dividend payout reflects management's commitment to shareholder returns.,75,IRFC
+pro,PR09,EPS growing above 15% CAGR indicates strong earnings quality and long-term compounding.,90,IRFC
+pro,PR11,Profit growing faster than revenue indicates improving operating leverage and scale benefits.,85,IRFC
+con,CR01,Debt-to-equity ratio of 8.38 is elevated and warrants monitoring.,95,IRFC
+con,CR06,Interest coverage below 1.5x indicates elevated debt servicing risk.,95,IRFC
+con,CR10,Return on capital employed below 10% suggests weak capital efficiency.,90,IRFC
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,IRFC
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,IRFC
+pro,PR01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,95,ITC
+pro,PR02,Strong free cash flow generation indicates healthy business fundamentals.,90,ITC
+pro,PR03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95,ITC
+pro,PR05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,90,ITC
+pro,PR07,Very high interest coverage reflects negligible financial stress from debt servicing.,90,ITC
+pro,PR08,Healthy dividend payout reflects management's commitment to shareholder returns.,75,ITC
+pro,PR11,Profit growing faster than revenue indicates improving operating leverage and scale benefits.,85,ITC
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,ITC
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,ITC
+pro,PR01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,95,COALINDIA
+pro,PR02,Strong free cash flow generation indicates healthy business fundamentals.,90,COALINDIA
+pro,PR05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,90,COALINDIA
+pro,PR07,Very high interest coverage reflects negligible financial stress from debt servicing.,90,COALINDIA
+pro,PR08,Healthy dividend payout reflects management's commitment to shareholder returns.,75,COALINDIA
+pro,PR09,EPS growing above 15% CAGR indicates strong earnings quality and long-term compounding.,90,COALINDIA
+pro,PR11,Profit growing faster than revenue indicates improving operating leverage and scale benefits.,85,COALINDIA
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,COALINDIA
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,COALINDIA
+con,CR02,Negative free cash flow raises concerns about cash generation quality.,90,GODREJCP
+con,CR04,Company reported a net loss in the most recent financial year.,95,GODREJCP
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,GODREJCP
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,GODREJCP
+pro,PR02,Strong free cash flow generation indicates healthy business fundamentals.,90,LT
+pro,PR08,Healthy dividend payout reflects management's commitment to shareholder returns.,75,LT
+con,CR08,"Debt-to-equity ratio has increased for three consecutive years, indicating rising leverage risk.",90,LT
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,LT
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,LT
+pro,PR01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,95,BEL
+pro,PR07,Very high interest coverage reflects negligible financial stress from debt servicing.,90,BEL
+pro,PR08,Healthy dividend payout reflects management's commitment to shareholder returns.,75,BEL
+pro,PR11,Profit growing faster than revenue indicates improving operating leverage and scale benefits.,85,BEL
+con,CR02,Negative free cash flow raises concerns about cash generation quality.,90,BEL
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,BEL
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,BEL
+pro,PR02,Strong free cash flow generation indicates healthy business fundamentals.,90,TCS
+pro,PR05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,90,TCS
+pro,PR07,Very high interest coverage reflects negligible financial stress from debt servicing.,90,TCS
+pro,PR08,Healthy dividend payout reflects management's commitment to shareholder returns.,75,TCS
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,TCS
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,TCS
+pro,PR05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,90,LODHA
+pro,PR11,Profit growing faster than revenue indicates improving operating leverage and scale benefits.,85,LODHA
+pro,PR12,Growing asset base funded with declining borrowings reflects self-sustaining growth.,85,LODHA
+con,CR02,Negative free cash flow raises concerns about cash generation quality.,90,LODHA
+con,CR05,Revenue growth below 5% over five years indicates limited business momentum.,85,LODHA
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,LODHA
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,LODHA
+pro,PR02,Strong free cash flow generation indicates healthy business fundamentals.,90,BHARTIARTL
+pro,PR05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,90,BHARTIARTL
+pro,PR06,Net profit compounding above 20% over five years creates significant shareholder value.,90,BHARTIARTL
+pro,PR08,Healthy dividend payout reflects management's commitment to shareholder returns.,75,BHARTIARTL
+pro,PR09,EPS growing above 15% CAGR indicates strong earnings quality and long-term compounding.,90,BHARTIARTL
+pro,PR11,Profit growing faster than revenue indicates improving operating leverage and scale benefits.,85,BHARTIARTL
+con,CR01,Debt-to-equity ratio of 2.61 is elevated and warrants monitoring.,95,BHARTIARTL
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,BHARTIARTL
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,BHARTIARTL
+pro,PR01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,95,BRITANNIA
+pro,PR02,Strong free cash flow generation indicates healthy business fundamentals.,90,BRITANNIA
+pro,PR07,Very high interest coverage reflects negligible financial stress from debt servicing.,90,BRITANNIA
+pro,PR08,Healthy dividend payout reflects management's commitment to shareholder returns.,75,BRITANNIA
+pro,PR11,Profit growing faster than revenue indicates improving operating leverage and scale benefits.,85,BRITANNIA
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,BRITANNIA
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,BRITANNIA
+pro,PR05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,90,AXISBANK
+pro,PR06,Net profit compounding above 20% over five years creates significant shareholder value.,90,AXISBANK
+pro,PR09,EPS growing above 15% CAGR indicates strong earnings quality and long-term compounding.,90,AXISBANK
+pro,PR11,Profit growing faster than revenue indicates improving operating leverage and scale benefits.,85,AXISBANK
+con,CR01,Debt-to-equity ratio of 8.25 is elevated and warrants monitoring.,95,AXISBANK
+con,CR02,Negative free cash flow raises concerns about cash generation quality.,90,AXISBANK
+con,CR10,Return on capital employed below 10% suggests weak capital efficiency.,90,AXISBANK
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,AXISBANK
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,AXISBANK
+pro,PR01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,95,TITAN
+pro,PR02,Strong free cash flow generation indicates healthy business fundamentals.,90,TITAN
+pro,PR04,Revenue growing above 15% CAGR over five years reflects strong business momentum.,90,TITAN
+pro,PR06,Net profit compounding above 20% over five years creates significant shareholder value.,90,TITAN
+pro,PR08,Healthy dividend payout reflects management's commitment to shareholder returns.,75,TITAN
+pro,PR09,EPS growing above 15% CAGR indicates strong earnings quality and long-term compounding.,90,TITAN
+con,CR08,"Debt-to-equity ratio has increased for three consecutive years, indicating rising leverage risk.",90,TITAN
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,TITAN
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,TITAN
+pro,PR01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,95,BAJAJ-AUTO
+pro,PR02,Strong free cash flow generation indicates healthy business fundamentals.,90,BAJAJ-AUTO
+pro,PR07,Very high interest coverage reflects negligible financial stress from debt servicing.,90,BAJAJ-AUTO
+pro,PR08,Healthy dividend payout reflects management's commitment to shareholder returns.,75,BAJAJ-AUTO
+pro,PR11,Profit growing faster than revenue indicates improving operating leverage and scale benefits.,85,BAJAJ-AUTO
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,BAJAJ-AUTO
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,BAJAJ-AUTO
+pro,PR02,Strong free cash flow generation indicates healthy business fundamentals.,90,TECHM
+pro,PR07,Very high interest coverage reflects negligible financial stress from debt servicing.,90,TECHM
+pro,PR08,Healthy dividend payout reflects management's commitment to shareholder returns.,75,TECHM
+con,CR03,Operating margins are weak and may indicate pricing or cost pressure.,85,TECHM
+con,CR07,Dividend payout above 100% may be unsustainable.,90,TECHM
+con,CR09,"Earnings per share have declined for three consecutive years, indicating weakening profitability.",90,TECHM
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,TECHM
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,TECHM
+pro,PR04,Revenue growing above 15% CAGR over five years reflects strong business momentum.,90,PNB
+con,CR01,Debt-to-equity ratio of 3.68 is elevated and warrants monitoring.,95,PNB
+con,CR02,Negative free cash flow raises concerns about cash generation quality.,90,PNB
+con,CR10,Return on capital employed below 10% suggests weak capital efficiency.,90,PNB
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,PNB
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,PNB
+pro,PR01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,95,PIDILITIND
+pro,PR02,Strong free cash flow generation indicates healthy business fundamentals.,90,PIDILITIND
+pro,PR07,Very high interest coverage reflects negligible financial stress from debt servicing.,90,PIDILITIND
+pro,PR08,Healthy dividend payout reflects management's commitment to shareholder returns.,75,PIDILITIND
+pro,PR11,Profit growing faster than revenue indicates improving operating leverage and scale benefits.,85,PIDILITIND
+pro,PR12,Growing asset base funded with declining borrowings reflects self-sustaining growth.,85,PIDILITIND
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,PIDILITIND
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,PIDILITIND
+pro,PR01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,95,LTIM
+pro,PR02,Strong free cash flow generation indicates healthy business fundamentals.,90,LTIM
+pro,PR04,Revenue growing above 15% CAGR over five years reflects strong business momentum.,90,LTIM
+pro,PR06,Net profit compounding above 20% over five years creates significant shareholder value.,90,LTIM
+pro,PR07,Very high interest coverage reflects negligible financial stress from debt servicing.,90,LTIM
+pro,PR08,Healthy dividend payout reflects management's commitment to shareholder returns.,75,LTIM
+con,CR08,"Debt-to-equity ratio has increased for three consecutive years, indicating rising leverage risk.",90,LTIM
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,LTIM
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,LTIM
+pro,PR08,Healthy dividend payout reflects management's commitment to shareholder returns.,75,M&M
+pro,PR09,EPS growing above 15% CAGR indicates strong earnings quality and long-term compounding.,90,M&M
+pro,PR11,Profit growing faster than revenue indicates improving operating leverage and scale benefits.,85,M&M
+con,CR02,Negative free cash flow raises concerns about cash generation quality.,90,M&M
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,M&M
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,M&M
+pro,PR04,Revenue growing above 15% CAGR over five years reflects strong business momentum.,90,BANKBARODA
+pro,PR05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,90,BANKBARODA
+pro,PR06,Net profit compounding above 20% over five years creates significant shareholder value.,90,BANKBARODA
+pro,PR08,Healthy dividend payout reflects management's commitment to shareholder returns.,75,BANKBARODA
+pro,PR09,EPS growing above 15% CAGR indicates strong earnings quality and long-term compounding.,90,BANKBARODA
+pro,PR11,Profit growing faster than revenue indicates improving operating leverage and scale benefits.,85,BANKBARODA
+con,CR01,Debt-to-equity ratio of 12.14 is elevated and warrants monitoring.,95,BANKBARODA
+con,CR02,Negative free cash flow raises concerns about cash generation quality.,90,BANKBARODA
+con,CR10,Return on capital employed below 10% suggests weak capital efficiency.,90,BANKBARODA
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,BANKBARODA
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,BANKBARODA
+pro,PR01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,95,BAJFINANCE
+pro,PR04,Revenue growing above 15% CAGR over five years reflects strong business momentum.,90,BAJFINANCE
+pro,PR05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,90,BAJFINANCE
+pro,PR06,Net profit compounding above 20% over five years creates significant shareholder value.,90,BAJFINANCE
+pro,PR07,Very high interest coverage reflects negligible financial stress from debt servicing.,90,BAJFINANCE
+pro,PR09,EPS growing above 15% CAGR indicates strong earnings quality and long-term compounding.,90,BAJFINANCE
+pro,PR11,Profit growing faster than revenue indicates improving operating leverage and scale benefits.,85,BAJFINANCE
+con,CR01,Debt-to-equity ratio of 3.82 is elevated and warrants monitoring.,95,BAJFINANCE
+con,CR02,Negative free cash flow raises concerns about cash generation quality.,90,BAJFINANCE
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,BAJFINANCE
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,BAJFINANCE
+pro,PR02,Strong free cash flow generation indicates healthy business fundamentals.,90,BAJAJHLDNG
+pro,PR03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95,BAJAJHLDNG
+pro,PR04,Revenue growing above 15% CAGR over five years reflects strong business momentum.,90,BAJAJHLDNG
+pro,PR05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,90,BAJAJHLDNG
+pro,PR07,Very high interest coverage reflects negligible financial stress from debt servicing.,90,BAJAJHLDNG
+pro,PR09,EPS growing above 15% CAGR indicates strong earnings quality and long-term compounding.,90,BAJAJHLDNG
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,BAJAJHLDNG
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,BAJAJHLDNG
+pro,PR01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,95,TORNTPHARM
+pro,PR02,Strong free cash flow generation indicates healthy business fundamentals.,90,TORNTPHARM
+pro,PR05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,90,TORNTPHARM
+pro,PR06,Net profit compounding above 20% over five years creates significant shareholder value.,90,TORNTPHARM
+pro,PR08,Healthy dividend payout reflects management's commitment to shareholder returns.,75,TORNTPHARM
+pro,PR09,EPS growing above 15% CAGR indicates strong earnings quality and long-term compounding.,90,TORNTPHARM
+pro,PR11,Profit growing faster than revenue indicates improving operating leverage and scale benefits.,85,TORNTPHARM
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,TORNTPHARM
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,TORNTPHARM
+pro,PR01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,95,ASIANPAINT
+pro,PR02,Strong free cash flow generation indicates healthy business fundamentals.,90,ASIANPAINT
+pro,PR06,Net profit compounding above 20% over five years creates significant shareholder value.,90,ASIANPAINT
+pro,PR07,Very high interest coverage reflects negligible financial stress from debt servicing.,90,ASIANPAINT
+pro,PR08,Healthy dividend payout reflects management's commitment to shareholder returns.,75,ASIANPAINT
+pro,PR09,EPS growing above 15% CAGR indicates strong earnings quality and long-term compounding.,90,ASIANPAINT
+pro,PR11,Profit growing faster than revenue indicates improving operating leverage and scale benefits.,85,ASIANPAINT
+con,CR08,"Debt-to-equity ratio has increased for three consecutive years, indicating rising leverage risk.",90,ASIANPAINT
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,ASIANPAINT
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,ASIANPAINT
+pro,PR07,Very high interest coverage reflects negligible financial stress from debt servicing.,90,AMBUJACEM
+pro,PR11,Profit growing faster than revenue indicates improving operating leverage and scale benefits.,85,AMBUJACEM
+con,CR02,Negative free cash flow raises concerns about cash generation quality.,90,AMBUJACEM
+con,CR05,Revenue growth below 5% over five years indicates limited business momentum.,85,AMBUJACEM
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,AMBUJACEM
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,AMBUJACEM
+pro,PR04,Revenue growing above 15% CAGR over five years reflects strong business momentum.,90,BAJAJFINSV
+pro,PR05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,90,BAJAJFINSV
+pro,PR06,Net profit compounding above 20% over five years creates significant shareholder value.,90,BAJAJFINSV
+pro,PR09,EPS growing above 15% CAGR indicates strong earnings quality and long-term compounding.,90,BAJAJFINSV
+pro,PR11,Profit growing faster than revenue indicates improving operating leverage and scale benefits.,85,BAJAJFINSV
+con,CR01,Debt-to-equity ratio of 4.79 is elevated and warrants monitoring.,95,BAJAJFINSV
+con,CR02,Negative free cash flow raises concerns about cash generation quality.,90,BAJAJFINSV
+con,CR08,"Debt-to-equity ratio has increased for three consecutive years, indicating rising leverage risk.",90,BAJAJFINSV
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,BAJAJFINSV
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,BAJAJFINSV
+pro,PR01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,95,ADANIPOWER
+pro,PR02,Strong free cash flow generation indicates healthy business fundamentals.,90,ADANIPOWER
+pro,PR04,Revenue growing above 15% CAGR over five years reflects strong business momentum.,90,ADANIPOWER
+pro,PR05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,90,ADANIPOWER
+pro,PR12,Growing asset base funded with declining borrowings reflects self-sustaining growth.,85,ADANIPOWER
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,ADANIPOWER
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,ADANIPOWER
+pro,PR05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,90,PFC
+pro,PR08,Healthy dividend payout reflects management's commitment to shareholder returns.,75,PFC
+pro,PR11,Profit growing faster than revenue indicates improving operating leverage and scale benefits.,85,PFC
+con,CR01,Debt-to-equity ratio of 8.52 is elevated and warrants monitoring.,95,PFC
+con,CR02,Negative free cash flow raises concerns about cash generation quality.,90,PFC
+con,CR06,Interest coverage below 1.5x indicates elevated debt servicing risk.,95,PFC
+con,CR10,Return on capital employed below 10% suggests weak capital efficiency.,90,PFC
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,PFC
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,PFC
+pro,PR01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,95,ATGL
+pro,PR04,Revenue growing above 15% CAGR over five years reflects strong business momentum.,90,ATGL
+pro,PR06,Net profit compounding above 20% over five years creates significant shareholder value.,90,ATGL
+pro,PR07,Very high interest coverage reflects negligible financial stress from debt servicing.,90,ATGL
+pro,PR09,EPS growing above 15% CAGR indicates strong earnings quality and long-term compounding.,90,ATGL
+pro,PR11,Profit growing faster than revenue indicates improving operating leverage and scale benefits.,85,ATGL
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,ATGL
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,ATGL
+pro,PR02,Strong free cash flow generation indicates healthy business fundamentals.,90,APOLLOHOSP
+pro,PR06,Net profit compounding above 20% over five years creates significant shareholder value.,90,APOLLOHOSP
+pro,PR08,Healthy dividend payout reflects management's commitment to shareholder returns.,75,APOLLOHOSP
+pro,PR09,EPS growing above 15% CAGR indicates strong earnings quality and long-term compounding.,90,APOLLOHOSP
+pro,PR11,Profit growing faster than revenue indicates improving operating leverage and scale benefits.,85,APOLLOHOSP
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,APOLLOHOSP
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,APOLLOHOSP
+pro,PR02,Strong free cash flow generation indicates healthy business fundamentals.,90,MARUTI
+pro,PR03,Debt-free balance sheet provides financial flexibility and eliminates interest burden.,95,MARUTI
+pro,PR07,Very high interest coverage reflects negligible financial stress from debt servicing.,90,MARUTI
+pro,PR08,Healthy dividend payout reflects management's commitment to shareholder returns.,75,MARUTI
+pro,PR11,Profit growing faster than revenue indicates improving operating leverage and scale benefits.,85,MARUTI
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,MARUTI
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,MARUTI
+pro,PR02,Strong free cash flow generation indicates healthy business fundamentals.,90,MOTHERSON
+con,CR03,Operating margins are weak and may indicate pricing or cost pressure.,85,MOTHERSON
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,MOTHERSON
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,MOTHERSON
+pro,PR04,Revenue growing above 15% CAGR over five years reflects strong business momentum.,90,NAUKRI
+pro,PR05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,90,NAUKRI
+pro,PR07,Very high interest coverage reflects negligible financial stress from debt servicing.,90,NAUKRI
+pro,PR08,Healthy dividend payout reflects management's commitment to shareholder returns.,75,NAUKRI
+con,CR02,Negative free cash flow raises concerns about cash generation quality.,90,NAUKRI
+con,CR10,Return on capital employed below 10% suggests weak capital efficiency.,90,NAUKRI
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,NAUKRI
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,NAUKRI
+pro,PR01,Consistently high return on equity above 20% demonstrates exceptional capital efficiency.,95,NESTLEIND
+pro,PR02,Strong free cash flow generation indicates healthy business fundamentals.,90,NESTLEIND
+pro,PR07,Very high interest coverage reflects negligible financial stress from debt servicing.,90,NESTLEIND
+pro,PR08,Healthy dividend payout reflects management's commitment to shareholder returns.,75,NESTLEIND
+pro,PR09,EPS growing above 15% CAGR indicates strong earnings quality and long-term compounding.,90,NESTLEIND
+pro,PR11,Profit growing faster than revenue indicates improving operating leverage and scale benefits.,85,NESTLEIND
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,NESTLEIND
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,NESTLEIND
+pro,PR02,Strong free cash flow generation indicates healthy business fundamentals.,90,INDIGO
+pro,PR04,Revenue growing above 15% CAGR over five years reflects strong business momentum.,90,INDIGO
+pro,PR05,Operating profit margin above 25% indicates strong pricing power and cost discipline.,90,INDIGO
+pro,PR06,Net profit compounding above 20% over five years creates significant shareholder value.,90,INDIGO
+pro,PR07,Very high interest coverage reflects negligible financial stress from debt servicing.,90,INDIGO
+pro,PR09,EPS growing above 15% CAGR indicates strong earnings quality and long-term compounding.,90,INDIGO
+pro,PR11,Profit growing faster than revenue indicates improving operating leverage and scale benefits.,85,INDIGO
+pro,PR99,Business has stable operations despite not triggering major quantitative strengths.,50,INDIGO
+con,CR99,"Monitor valuation, competition, and future growth expectations despite strong fundamentals.",50,INDIGO
