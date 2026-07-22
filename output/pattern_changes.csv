@@ -1,93 +1,37 @@
-company_id,pattern
-HEROMOTOCO,Improving
-HDFCLIFE,Improving
-SHRIRAMFIN,Deteriorating
-HAL,Deteriorating
-HAVELLS,Stable
-DIVISLAB,Stable
-TATACONSUM,Stable
-DABUR,Stable
-GAIL,Volatile
-EICHERMOT,Improving
-HINDALCO,Improving
-SIEMENS,Improving
-INFY,Stable
-SBILIFE,Improving
-INDUSINDBK,Deteriorating
-RELIANCE,Improving
-HCLTECH,Improving
-IOC,Improving
-SHREECEM,Stable
-GRASIM,Volatile
-SBIN,Volatile
-NTPC,Stable
-ADANIPORTS,Improving
-NHPC,Improving
-TRENT,Improving
-ADANIENSOL,Stable
-ADANIENT,Volatile
-ADANIGREEN,Improving
-ICICIBANK,Volatile
-TVSMOTOR,Volatile
-ONGC,Improving
-ABB,Stable
-ICICIGI,Improving
-HINDUNILVR,Improving
-ICICIPRULI,Deteriorating
-HDFCBANK,Volatile
-BPCL,Volatile
-BOSCHLTD,Improving
-TATASTEEL,Deteriorating
-BHEL,Deteriorating
-KOTAKBANK,Volatile
-JSWSTEEL,Deteriorating
-LICI,Volatile
-POWERGRID,Stable
-TATAPOWER,Improving
-TATAMOTORS,Improving
-DMART,Improving
-CANBK,Volatile
-CIPLA,Stable
-CHOLAFIN,Deteriorating
-JSWENERGY,Volatile
-DLF,Stable
-DRREDDY,Stable
-SUNPHARMA,Stable
-JINDALSTEL,Deteriorating
-JIOFIN,Insufficient Data
-RECLTD,Deteriorating
-IRCTC,Improving
-IRFC,Improving
-ITC,Stable
-COALINDIA,Deteriorating
-GODREJCP,Stable
-LT,Stable
-BEL,Volatile
-TCS,Improving
-LODHA,Stable
-BHARTIARTL,Improving
-BRITANNIA,Improving
-AXISBANK,Deteriorating
-TITAN,Improving
-BAJAJ-AUTO,Improving
-TECHM,Improving
-PNB,Volatile
-PIDILITIND,Improving
-LTIM,Stable
-M&M,Volatile
-BANKBARODA,Volatile
-BAJFINANCE,Deteriorating
-BAJAJHLDNG,Improving
-TORNTPHARM,Improving
-ASIANPAINT,Improving
-AMBUJACEM,Stable
-BAJAJFINSV,Deteriorating
-ADANIPOWER,Stable
-PFC,Deteriorating
-ATGL,Stable
-APOLLOHOSP,Stable
-MARUTI,Improving
-MOTHERSON,Improving
-NAUKRI,Stable
-NESTLEIND,Improving
-INDIGO,Improving
+company_id,previous_year,latest_year,previous_pattern,latest_pattern
+ADANIENSOL,Mar 2023,Mar 2024,Mixed,Reinvestor
+ADANIENT,Mar 2023,Mar 2024,Reinvestor,Mixed
+ADANIGREEN,Mar 2023,Mar 2024,Reinvestor,Mixed
+AMBUJACEM,Mar 2023 15,Mar 2024,Pre-Revenue,Mixed
+AXISBANK,Mar 2023,Mar 2024,Mixed,Growth Funded by Debt
+BAJAJ-AUTO,Mar 2023,Mar 2024,Liquidating Assets,Reinvestor
+BANKBARODA,Mar 2023,Mar 2024,Pre-Revenue,Growth Funded by Debt
+BEL,Mar 2023,Mar 2024,Liquidating Assets,Reinvestor
+BRITANNIA,Mar 2023,Mar 2024,Reinvestor,Liquidating Assets
+CANBK,Mar 2023,Mar 2024,Growth Funded by Debt,Reinvestor
+DLF,Mar 2023,Mar 2024,Reinvestor,Mixed
+GAIL,Mar 2023,Mar 2024,Mixed,Reinvestor
+GODREJCP,Mar 2023,Mar 2024,Reinvestor,Mixed
+HAVELLS,Mar 2023,Mar 2024,Liquidating Assets,Reinvestor
+HDFCBANK,Mar 2023,Mar 2024,Mixed,Liquidating Assets
+HDFCLIFE,Mar 2023,Mar 2024,Mixed,Reinvestor
+ICICIBANK,Mar 2023,Mar 2024,Growth Funded by Debt,Mixed
+ICICIPRULI,Mar 2023,Mar 2024,Reinvestor,Unknown
+INDUSINDBK,Mar 2023,Mar 2024,Growth Funded by Debt,Pre-Revenue
+IRFC,Mar 2023,Mar 2024,Growth Funded by Debt,Reinvestor
+ITC,Mar 2023,Mar 2024,Reinvestor,Liquidating Assets
+JINDALSTEL,Mar 2023,Mar 2024,Reinvestor,Mixed
+JIOFIN,Mar 2023,Mar 2024,Reinvestor,Unknown
+KOTAKBANK,Mar 2023,Mar 2024,Growth Funded by Debt,Mixed
+LODHA,Mar 2023,Mar 2024,Liquidating Assets,Mixed
+LT,Mar 2023,Mar 2024,Reinvestor,Liquidating Assets
+MOTHERSON,Mar 2023,Mar 2024,Reinvestor,Mixed
+PNB,Mar 2023,Mar 2024,Mixed,Growth Funded by Debt
+RELIANCE,Mar 2023,Mar 2024,Mixed,Reinvestor
+SBIN,Mar 2023,Mar 2024,Growth Funded by Debt,Reinvestor
+SHRIRAMFIN,Mar 2023,Mar 2024,Distress Signal,Growth Funded by Debt
+SUNPHARMA,Mar 2023,Mar 2024,Mixed,Reinvestor
+TATACONSUM,Mar 2023,Mar 2024,Reinvestor,Mixed
+TATAPOWER,Mar 2023,Mar 2024,Mixed,Reinvestor
+TITAN,Mar 2023,Mar 2024,Mixed,Reinvestor
+TORNTPHARM,Mar 2023,Mar 2024,Mixed,Reinvestor
