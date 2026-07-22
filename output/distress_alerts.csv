@@ -1,76 +1,14 @@
-company_id,alert
-HDFCLIFE,Negative Free Cash Flow
-SHRIRAMFIN,Negative Operating Cash Flow
-SHRIRAMFIN,Negative Free Cash Flow
-SHRIRAMFIN,Weak Interest Coverage
-SHRIRAMFIN,High Debt
-SBILIFE,Negative Free Cash Flow
-INDUSINDBK,Negative Operating Cash Flow
-INDUSINDBK,Negative Free Cash Flow
-INDUSINDBK,Weak Interest Coverage
-INDUSINDBK,High Debt
-GRASIM,Negative Operating Cash Flow
-GRASIM,Negative Free Cash Flow
-SBIN,Weak Interest Coverage
-ADANIENSOL,High Debt
-ADANIENT,Negative Free Cash Flow
-ADANIGREEN,Negative Free Cash Flow
-ADANIGREEN,Weak Interest Coverage
-ADANIGREEN,High Debt
-ICICIBANK,Weak Interest Coverage
-ICICIBANK,High Debt
-TVSMOTOR,Negative Operating Cash Flow
-TVSMOTOR,Negative Free Cash Flow
-TVSMOTOR,High Debt
-ICICIPRULI,Negative Operating Cash Flow
-HDFCBANK,Weak Interest Coverage
-HDFCBANK,High Debt
-BHEL,Negative Operating Cash Flow
-BHEL,Negative Free Cash Flow
-BHEL,Weak Interest Coverage
-KOTAKBANK,Weak Interest Coverage
-KOTAKBANK,High Debt
-JSWSTEEL,Negative Free Cash Flow
-CANBK,Weak Interest Coverage
-CANBK,High Debt
-CHOLAFIN,Negative Operating Cash Flow
-CHOLAFIN,Negative Free Cash Flow
-CHOLAFIN,High Debt
-JSWENERGY,Negative Free Cash Flow
-JINDALSTEL,Negative Free Cash Flow
-JIOFIN,Negative Operating Cash Flow
-RECLTD,Negative Operating Cash Flow
-RECLTD,Negative Free Cash Flow
-RECLTD,Weak Interest Coverage
-RECLTD,High Debt
-IRFC,Weak Interest Coverage
-IRFC,High Debt
-GODREJCP,Negative Free Cash Flow
-BEL,Negative Free Cash Flow
-LODHA,Negative Free Cash Flow
-BHARTIARTL,High Debt
-AXISBANK,Negative Operating Cash Flow
-AXISBANK,Negative Free Cash Flow
-AXISBANK,Weak Interest Coverage
-AXISBANK,High Debt
-PNB,Negative Operating Cash Flow
-PNB,Negative Free Cash Flow
-PNB,High Debt
-M&M,Negative Operating Cash Flow
-M&M,Negative Free Cash Flow
-BANKBARODA,Negative Operating Cash Flow
-BANKBARODA,Negative Free Cash Flow
-BANKBARODA,Weak Interest Coverage
-BANKBARODA,High Debt
-BAJFINANCE,Negative Operating Cash Flow
-BAJFINANCE,Negative Free Cash Flow
-BAJFINANCE,High Debt
-AMBUJACEM,Negative Free Cash Flow
-BAJAJFINSV,Negative Operating Cash Flow
-BAJAJFINSV,Negative Free Cash Flow
-BAJAJFINSV,High Debt
-PFC,Negative Operating Cash Flow
-PFC,Negative Free Cash Flow
-PFC,Weak Interest Coverage
-PFC,High Debt
-NAUKRI,Negative Free Cash Flow
+company_id,operating_activity,financing_activity,net_profit
+TVSMOTOR,-1253.0,2759.0,1779.0
+M&M,-5630.0,12281.0,12270.0
+BHEL,-3713.0,2656.0,282.0
+CHOLAFIN,-35683.0,38471.0,3420.0
+BANKBARODA,-6274.0,5476.0,18869.0
+BAJFINANCE,-72760.0,82415.0,14451.0
+SHRIRAMFIN,-31101.0,27609.0,7399.0
+BAJAJFINSV,-68674.0,82709.0,15595.0
+GRASIM,-10719.0,33908.0,9926.0
+RECLTD,-57723.0,59588.0,14145.0
+AXISBANK,-5555.0,22341.0,24861.0
+PFC,-97820.0,101261.0,26461.0
+PNB,-27939.0,3518.0,9157.0
