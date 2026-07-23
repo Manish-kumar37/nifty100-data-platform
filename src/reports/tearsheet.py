@@ -8,7 +8,8 @@ Author: Manish
 from pathlib import Path
 import sqlite3
 import re
-
+import numpy as np
+from matplotlib import pyplot as plt
 import pandas as pd
 
 import matplotlib.pyplot as plt
@@ -91,7 +92,15 @@ SMALL_STYLE = ParagraphStyle(
     parent=styles["BodyText"],
     fontSize=8,
 )
+CHART_DIR.mkdir(
+    parents=True,
+    exist_ok=True
+)
 
+OUTPUT_DIR.mkdir(
+    parents=True,
+    exist_ok=True
+)
 def load_data():
 
     conn = sqlite3.connect(DB_FILE)
@@ -212,54 +221,7 @@ def kpi_tile(title, value):
 
     return table
 
-def generate_pdf(company):
 
-    df = load_data()
-
-    snapshot = company_snapshot(df, company)
-
-    pdf = SimpleDocTemplate(
-        str(OUTPUT_DIR / f"{company}.pdf"),
-        pagesize=A4,
-        topMargin=20,
-        bottomMargin=20,
-    )
-
-    story = []
-
-    # HEADER
-    story.append(header(snapshot))
-
-    story.append(Spacer(1,18))
-
-    # KPI GRID
-
-    story.append(kpi_grid(snapshot))
-
-    story.append(Spacer(1,18))
-
-    # REVENUE + PROFIT
-
-    story.append(chart_row(df, company))
-
-    story.append(Spacer(1,18))
-
-    # ROE ROCE
-
-    story.append(performance_chart(df, company))
-
-    # PAGE 2 PLACEHOLDER
-
-    story.append(PageBreak())
-
-    story.append(
-        Paragraph(
-            "<b>Page 2 (Coming in Part 3)</b>",
-            SUBTITLE_STYLE
-        )
-    )
-
-    pdf.build(story)
 def company_snapshot(df, company):
 
     history = company_history(df, company)
@@ -268,23 +230,29 @@ def company_snapshot(df, company):
 
     return {
 
-        "company": company,
+    "company": company,
 
-        "sector": latest["broad_sector"],
+    "sector": safe_value(latest, "broad_sector"),
 
-        "revenue": latest["sales"],
+    "revenue": safe_value(latest, "sales", 0),
 
-        "net_profit": latest["net_profit"],
+    "net_profit": safe_value(latest, "net_profit", 0),
 
-        "eps": latest["eps"],
+    "eps": safe_value(latest, "eps", 0),
 
-        "roe": latest["roe_percentage"],
+    "roe": safe_value(latest, "roe_percentage"),
 
-        "roce": latest["roce_percentage"],
+    "roce": safe_value(latest, "roce_percentage"),
 
-        "opm": latest["opm_percentage"]
+    "opm": safe_value(latest, "opm_percentage"),
 
-    }
+    "capital_allocation": safe_value(
+        latest,
+        "capital_allocation",
+        "Unknown"
+    )
+
+}
 def revenue_history(df, company):
 
     history = company_history(df, company)
@@ -313,6 +281,282 @@ def roce_history(df, company):
     history = history.tail(10)
 
     return history["year"], history["roce_percentage"]
+def balance_history(df, company):
+
+    history = company_history(df, company).tail(10)
+
+    years = history["year"]
+
+    equity = history["equity_capital"]
+
+    debt = history["borrowings"]
+
+    liabilities = history["other_liabilities"]
+
+    return years, equity, debt, liabilities
+def cashflow_history(df, company):
+
+    history = company_history(df, company).tail(10)
+
+    years = history["year"]
+
+    operating = history["operating_activity"]
+
+    investing = history["investing_activity"]
+
+    financing = history["financing_activity"]
+
+    return years, operating, investing, financing
+
+from reportlab.lib.enums import TA_CENTER
+
+def insight_card(title, items, header_color):
+
+    if not items:
+        items = ["No insights available"]
+
+    title_para = Paragraph(
+        f"<font color='white'><b>{title}</b></font>",
+        ParagraphStyle(
+            "CardTitle",
+            parent=BODY_STYLE,
+            alignment=TA_CENTER
+        )
+    )
+
+    body = []
+
+    for item in items:
+        body.append(
+            Paragraph(
+                f"• {item}",
+                BODY_STYLE
+            )
+        )
+
+    rows = [[title_para]]
+
+    for p in body:
+        rows.append([p])
+
+    table = Table(
+        rows,
+        colWidths=[3.2 * inch]
+    )
+
+    table.setStyle(TableStyle([
+
+        ("BACKGROUND", (0,0), (-1,0), header_color),
+
+        ("TEXTCOLOR", (0,0), (-1,0), colors.white),
+
+        ("GRID", (0,0), (-1,-1), 0.5, colors.lightgrey),
+
+        ("BOX", (0,0), (-1,-1), 1, colors.grey),
+
+        ("BOTTOMPADDING", (0,0), (-1,0), 8),
+
+        ("TOPPADDING", (0,0), (-1,0), 8),
+
+        ("BOTTOMPADDING", (0,1), (-1,-1), 6),
+
+        ("TOPPADDING", (0,1), (-1,-1), 6),
+
+        ("VALIGN", (0,0), (-1,-1), "TOP")
+
+    ]))
+
+    return table    
+def insights_section(pros, cons):
+
+    pros_card = insight_card(
+        "PROS",
+        pros,
+        colors.darkgreen
+    )
+
+    cons_card = insight_card(
+        "CONS",
+        cons,
+        colors.darkred
+    )
+
+    table = Table(
+        [[pros_card, cons_card]],
+        colWidths=[3.3*inch,3.3*inch]
+    )
+
+    table.setStyle(TableStyle([
+
+        ("VALIGN",(0,0),(-1,-1),"TOP"),
+
+        ("BOTTOMPADDING",(0,0),(-1,-1),10)
+
+    ]))
+
+    return table
+def capital_badge(snapshot):
+
+    label = snapshot.get("capital_allocation", "Unknown")
+
+    palette = {
+
+        "Reinvestor": colors.darkgreen,
+
+        "Mixed": colors.orange,
+
+        "Growth Funded by Debt": colors.blue,
+
+        "Liquidating Assets": colors.red,
+
+        "Distress Signal": colors.darkred,
+
+        "Pre-Revenue": colors.purple,
+
+        "Unknown": colors.grey
+
+    }
+
+    badge = Table(
+
+        [[Paragraph(
+
+            f"<font color='white'><b>{label}</b></font>",
+
+            BODY_STYLE
+
+        )]],
+
+        colWidths=[2.8*inch]
+
+    )
+
+    badge.setStyle(TableStyle([
+
+        ("BACKGROUND",(0,0),(-1,-1),
+
+         palette.get(label, colors.grey)),
+
+        ("ALIGN",(0,0),(-1,-1),"CENTER"),
+
+        ("VALIGN",(0,0),(-1,-1),"MIDDLE"),
+
+        ("TOPPADDING",(0,0),(-1,-1),10),
+
+        ("BOTTOMPADDING",(0,0),(-1,-1),10),
+
+        ("BOX",(0,0),(-1,-1),1,colors.black)
+
+    ]))
+
+    return badge
+PROS_CONS_FILE = OUTPUT_DIR.parent / "pros_cons_generated.csv"
+
+PROS_CONS_FILE = OUTPUT_DIR.parent / "pros_cons_generated.csv"
+def load_pros_cons():
+
+    try:
+        return pd.read_csv(PROS_CONS_FILE)
+
+    except FileNotFoundError:
+
+        print(f"Warning: {PROS_CONS_FILE} not found.")
+
+        return pd.DataFrame(
+            columns=["company_id", "type", "statement"]
+        )
+
+def company_pros_cons(df, company):
+
+    if df.empty:
+        return [], []
+
+    company_df = df[df["company_id"] == company]
+
+    pros = company_df[
+        company_df["type"].str.lower() == "pro"
+    ]["text"].tolist()
+
+    cons = company_df[
+        company_df["type"].str.lower() == "con"
+    ]["text"].tolist()
+
+    return pros, cons    
+def page2(df, company):
+
+    snapshot = company_snapshot(df, company)
+
+    pc_df = load_pros_cons()
+
+    pros, cons = company_pros_cons(pc_df, company)
+
+    story = []
+
+    # -------------------------------
+    # Balance Sheet
+    # -------------------------------
+
+    story.append(
+        Paragraph(
+            "<b>Balance Sheet Composition</b>",
+            SUBTITLE_STYLE
+        )
+    )
+
+    story.append(Spacer(1, 6))
+
+    story.append(balance_section(df, company))
+
+    story.append(Spacer(1, 15))
+
+    # -------------------------------
+    # Cash Flow
+    # -------------------------------
+
+    story.append(
+        Paragraph(
+            "<b>Cash Flow Trends</b>",
+            SUBTITLE_STYLE
+        )
+    )
+
+    story.append(Spacer(1, 6))
+
+    story.append(cashflow_section(df, company))
+
+    story.append(Spacer(1, 18))
+
+    # -------------------------------
+    # Pros & Cons
+    # -------------------------------
+
+    story.append(
+        insights_section(
+            pros,
+            cons
+        )
+    )
+
+    story.append(Spacer(1, 18))
+
+    # -------------------------------
+    # Capital Allocation
+    # -------------------------------
+
+    story.append(
+        Paragraph(
+            "<b>Capital Allocation</b>",
+            SUBTITLE_STYLE
+        )
+    )
+
+    story.append(Spacer(1, 8))
+
+    story.append(
+        capital_badge(snapshot)
+    )
+
+    return story
 def revenue_chart(df, company):
 
     years, revenue = revenue_history(df, company)
@@ -380,27 +624,167 @@ def roe_roce_chart(df, company):
     plt.close()
 
     return str(path)
+
+def balance_chart(df, company):
+
+    years, equity, debt, liabilities = balance_history(df, company)
+
+    x = np.arange(len(years))
+
+    plt.figure(figsize=(6,3))
+
+    plt.bar(x, equity, label="Equity")
+
+    plt.bar(
+        x,
+        debt,
+        bottom=equity,
+        label="Debt"
+    )
+
+    plt.bar(
+        x,
+        liabilities,
+        bottom=equity + debt,
+        label="Other"
+    )
+
+    plt.xticks(x, years, rotation=45)
+
+    plt.title("Balance Sheet Composition")
+
+    plt.legend()
+
+    plt.tight_layout()
+
+    path = CHART_DIR / f"{company}_balance.png"
+
+    plt.savefig(path, dpi=200)
+
+    plt.close()
+
+    return str(path)
+
+def cashflow_chart(df, company):
+
+    years, op, inv, fin = cashflow_history(df, company)
+
+    x = np.arange(len(years))
+
+    width = 0.25
+
+    plt.figure(figsize=(6,3))
+
+    plt.bar(x-width, op, width, label="Operating")
+
+    plt.bar(x, inv, width, label="Investing")
+
+    plt.bar(x+width, fin, width, label="Financing")
+
+    plt.xticks(x, years, rotation=45)
+
+    plt.title("Cash Flow")
+
+    plt.legend()
+
+    plt.tight_layout()
+
+    path = CHART_DIR / f"{company}_cashflow.png"
+
+    plt.savefig(path, dpi=200)
+
+    plt.close()
+
+    return str(path)
+def safe_chart(chart_func, df, company, width, height):
+
+    try:
+
+        path = chart_func(df, company)
+
+        if Path(path).exists():
+
+            return Image(
+                path,
+                width=width,
+                height=height
+            )
+
+    except Exception as e:
+
+        print(f"{company}: {e}")
+
+    return Paragraph(
+        "Chart unavailable",
+        BODY_STYLE
+    )
+def safe_value(row, column, default="N/A"):
+
+    if column not in row.index:
+
+        return default
+
+    value = row[column]
+
+    if pd.isna(value):
+
+        return default
+
+    return value
+def fmt(value, suffix=""):
+
+    if value == "N/A":
+
+        return "N/A"
+
+    if pd.isna(value):
+
+        return "N/A"
+
+    return f"{value:,.2f}{suffix}"
+def balance_section(df, company):
+
+    img = safe_chart(
+        balance_chart,
+        df,
+        company,
+        6.6*inch,
+        3*inch
+    )
+
+    return Table([[img]])
+def cashflow_section(df, company):
+
+    img = safe_chart(
+        cashflow_chart,
+        df,
+        company,
+        6.6*inch,
+        3*inch
+    )
+
+    return Table([[img]])
 def kpi_grid(snapshot):
 
     grid = [
 
         [
 
-            kpi_tile("Revenue", f"{snapshot['revenue']:.2f}"),
+            kpi_tile("Revenue", fmt(snapshot["revenue"])),
 
-            kpi_tile("Net Profit", f"{snapshot['net_profit']:.2f}"),
+            kpi_tile("Net Profit", fmt(snapshot["net_profit"])),
 
-            kpi_tile("EPS", f"{snapshot['eps']:.2f}")
+            kpi_tile("EPS", fmt(snapshot["eps"]))
 
         ],
 
         [
 
-            kpi_tile("ROE", f"{snapshot['roe']:.2f}%"),
+            kpi_tile("ROE", fmt(snapshot["roe"], "%")),
 
-            kpi_tile("ROCE", f"{snapshot['roce']:.2f}%"),
+            kpi_tile("ROCE", fmt(snapshot["roce"], "%")),
 
-            kpi_tile("OPM", f"{snapshot['opm']:.2f}%")
+            kpi_tile("OPM", fmt(snapshot["opm"], "%"))
 
         ]
 
@@ -457,6 +841,9 @@ def chart_row(df, company):
     )
 
     return table
+
+
+
 def performance_chart(df, company):
 
     img = Image(
@@ -474,11 +861,72 @@ def performance_chart(df, company):
     )
 
     return table
+def generate_pdf(company):
+
+    df = load_data()
+
+    snapshot = company_snapshot(df, company)
+
+    pdf = SimpleDocTemplate(
+        str(OUTPUT_DIR / f"{company}.pdf"),
+        pagesize=A4,
+        topMargin=20,
+        bottomMargin=20,
+    )
+
+    story = []
+
+    # HEADER
+    story.append(header(snapshot))
+
+    story.append(Spacer(1,18))
+
+    # KPI GRID
+
+    story.append(kpi_grid(snapshot))
+
+    story.append(Spacer(1,18))
+
+    # REVENUE + PROFIT
+
+    story.append(chart_row(df, company))
+
+    story.append(Spacer(1,18))
+
+    # ROE ROCE
+
+    story.append(performance_chart(df, company))
+
+    # PAGE 2 PLACEHOLDER
+
+    story.append(PageBreak())
+    story.extend(
+        page2(
+            df,
+            company
+        )
+    )
+    
+
+    pdf.build(story)
 def main():
-    generate_pdf("TCS")
+
+    companies = [
+        "TCS",
+        "HDFCBANK",
+        "RELIANCE",
+        "SUNPHARMA",
+        "TATASTEEL"
+    ]
+
+    for company in companies:
+        print(f"Generating {company}...")
+        generate_pdf(company)
+
     print("=" * 50)
-    print("Page 1 Generated Successfully")
+    print("Day 33 Completed Successfully")
     print("=" * 50)
+
 
 if __name__ == "__main__":
     main()
