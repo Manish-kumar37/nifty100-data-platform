@@ -101,6 +101,11 @@ OUTPUT_DIR.mkdir(
     parents=True,
     exist_ok=True
 )
+TEARSHEET_DIR = OUTPUT_DIR / "tearsheets"
+SECTOR_DIR = OUTPUT_DIR / "sector"
+
+TEARSHEET_DIR.mkdir(parents=True, exist_ok=True)
+SECTOR_DIR.mkdir(parents=True, exist_ok=True)
 def load_data():
 
     conn = sqlite3.connect(DB_FILE)
@@ -861,14 +866,15 @@ def performance_chart(df, company):
     )
 
     return table
-def generate_pdf(company):
-
+def generate_pdf(company, output_dir=TEARSHEET_DIR):
     df = load_data()
 
     snapshot = company_snapshot(df, company)
 
+    output_dir.mkdir(parents=True, exist_ok=True)
+
     pdf = SimpleDocTemplate(
-        str(OUTPUT_DIR / f"{company}.pdf"),
+        str(output_dir / f"{company}_tearsheet.pdf"),
         pagesize=A4,
         topMargin=20,
         bottomMargin=20,
@@ -911,23 +917,58 @@ def generate_pdf(company):
     pdf.build(story)
 def main():
 
-    companies = [
-        "TCS",
-        "HDFCBANK",
-        "RELIANCE",
-        "SUNPHARMA",
-        "TATASTEEL"
-    ]
+    df = load_data()
+
+    companies = sorted(df["company_id"].dropna().unique())
+
+    skipped = []
+    generated = 0
 
     for company in companies:
-        print(f"Generating {company}...")
-        generate_pdf(company)
 
-    print("=" * 50)
-    print("Day 33 Completed Successfully")
-    print("=" * 50)
+        history = company_history(df, company)
 
+        if len(history) < 3:
+            skipped.append(company)
+            print(f"Skipping {company} (less than 3 years)")
+            continue
 
+        try:
+            print(f"Generating {company}...")
+            generate_pdf(company)
+            generated += 1
+
+        except Exception as e:
+            print(f"Failed {company}: {e}")
+            skipped.append(company)
+
+    pd.DataFrame(
+        {"company_id": skipped}
+    ).to_csv(
+        BASE_DIR / "output" / "skipped_tearsheets.csv",
+        index=False
+    )
+
+    print("=" * 60)
+    print(f"Generated : {generated}")
+    print(f"Skipped   : {len(skipped)}")
+    print("=" * 60)
+    print("Day 34 Batch Tear Sheets Completed!")
+
+# for all companies report
+# def main():
+
+#     df = load_data()
+
+#     companies = sorted(df["company_id"].unique())
+
+#     for company in companies:
+#         print(f"Generating {company}...")
+#         generate_pdf(company)
+
+#     print("=" * 50)
+#     print("All tear sheets generated successfully!")
+#     print("=" * 50)
 if __name__ == "__main__":
     main()
 

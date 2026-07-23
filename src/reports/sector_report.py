@@ -122,6 +122,7 @@ def sector_ranking(summary):
     )
 
     return ranking
+
 def main():
 
     print("Inside main()")
