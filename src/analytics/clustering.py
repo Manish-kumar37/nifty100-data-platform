@@ -26,10 +26,19 @@ FEATURES = [
 
 def latest_snapshot(df):
 
+    df = df[df["year"] != "TTM"].copy()
+
+    df["year_dt"] = pd.to_datetime(
+        df["year"],
+        format="%b %Y",
+        errors="coerce"
+    )
+
     return (
-        df.sort_values("year")
+        df.sort_values("year_dt")
           .groupby("company_id")
           .tail(1)
+          .drop(columns="year_dt")
           .reset_index(drop=True)
     )
 

@@ -1,14 +1,12 @@
 import sqlite3
-import pandas as pd
+from pathlib import Path
 
-conn = sqlite3.connect("nifty100.db")
+db = Path("nifty100.db")
 
-df = pd.read_sql("""
-SELECT *
-FROM financial_ratios
-LIMIT 1
-""", conn)
+conn = sqlite3.connect(db)
+
+print(conn.execute(
+    "SELECT name FROM sqlite_master WHERE type='table';"
+).fetchall())
 
 conn.close()
-
-print(df.columns.tolist())
